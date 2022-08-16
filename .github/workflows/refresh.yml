@@ -1,0 +1,27 @@
+name: 🔃 Refresh
+
+on:
+  schedule:
+    - cron: "0 12 * * 3"
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    name: Refresh
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Refresh
+        run: kotlin refresh.main.kts
+      - name: Commit changes
+        run: |
+          if ! git diff --quiet --exit-code -- README.md distributions.json;
+          then
+            git config --global user.name "Simon Marquis"
+            git config --global user.email "SimonMarquis@users.noreply.github.com"
+            git commit README.md distributions.json -m "🔃"
+            git push
+            echo "::notice::UPDATED"
+          else
+            echo "::notice::UP-TO-DATE"
+          fi
