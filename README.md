@@ -2,44 +2,58 @@
 
 | Name | Version | API |  % |
 |------|--------:|----:|---:|
-| [S](#api-31) | 12.0 | 31 | 13.3% |
-| [R](#api-30) | 11.0 | 30 | 27% |
-| [Q](#api-29) | 10.0 | 29 | 22.3% |
-| [Pie](#api-28) | 9.0 | 28 | 14.5% |
-| [Oreo](#api-27) | 8.1 | 27 | 7.9% |
-| [Oreo](#api-26) | 8.0 | 26 | 3% |
-| [Nougat](#api-25) | 7.1 | 25 | 2.2% |
-| [Nougat](#api-24) | 7.0 | 24 | 2.3% |
-| [Marshmallow](#api-23) | 6.0 | 23 | 3.5% |
-| [Lollipop](#api-22) | 5.1 | 22 | 2.2% |
-| [Lollipop](#api-21) | 5.0 | 21 | 0.4% |
-| [KitKat](#api-19) | 4.4 | 19 | 0.9% |
-| [Jelly Bean](#api-18) | 4.3 | 18 | 0% |
-| [Jelly Bean](#api-17) | 4.2 | 17 | 0.2% |
-| [Jelly Bean](#api-16) | 4.1 | 16 | 0.1% |
+| [T](#api-33) | 13.0 | 33 | 5% |
+| [S](#api-31) | 12.0 | 31 | 18.9% |
+| [R](#api-30) | 11.0 | 30 | 24.4% |
+| [Q](#api-29) | 10.0 | 29 | 19.5% |
+| [Pie](#api-28) | 9.0 | 28 | 13.2% |
+| [Oreo](#api-27) | 8.1 | 27 | 6.9% |
+| [Oreo](#api-26) | 8.0 | 26 | 2.6% |
+| [Nougat](#api-25) | 7.1 | 25 | 1.8% |
+| [Nougat](#api-24) | 7.0 | 24 | 1.9% |
+| [Marshmallow](#api-23) | 6.0 | 23 | 2.8% |
+| [Lollipop](#api-22) | 5.1 | 22 | 1.8% |
+| [Lollipop](#api-21) | 5.0 | 21 | 0.3% |
+| [KitKat](#api-19) | 4.4 | 19 | 0.7% |
 
 ---
 
 ```mermaid
 pie
-    "R (11.0)" : 27
-    "Q (10.0)" : 22.3
-    "Pie (9.0)" : 14.5
-    "S (12.0)" : 13.3
-    "Oreo (8.1)" : 7.9
-    "Marshmallow (6.0)" : 3.5
-    "Oreo (8.0)" : 3
-    "Nougat (7.0)" : 2.3
-    "Nougat (7.1)" : 2.2
-    "Lollipop (5.1)" : 2.2
-    "KitKat (4.4)" : 0.9
-    "Lollipop (5.0)" : 0.4
-    "Jelly Bean (4.2)" : 0.2
-    "Jelly Bean (4.1)" : 0.1
-    "Jelly Bean (4.3)" : 0
+    "R (11.0)" : 24.4
+    "Q (10.0)" : 19.5
+    "S (12.0)" : 18.9
+    "Pie (9.0)" : 13.2
+    "Oreo (8.1)" : 6.9
+    "T (13.0)" : 5
+    "Marshmallow (6.0)" : 2.8
+    "Oreo (8.0)" : 2.6
+    "Nougat (7.0)" : 1.9
+    "Nougat (7.1)" : 1.8
+    "Lollipop (5.1)" : 1.8
+    "KitKat (4.4)" : 0.7
+    "Lollipop (5.0)" : 0.3
 ```
 
 ---
+
+<a id="api-33"></a>
+##### [T](https://developer.android.com/about/versions/13)
+
+###### New features
+
+> Tablet and large screen support<br>Programmable shaders<br>Color vector fonts<br>Predictive back gesture<br>Bluetooth LE Audio<br>Splash screen efficiency improvements<br>ART optimizations
+
+###### Behavior changes
+
+> OpenJDK 11 updates<br>Battery Resource Utilization<br>Media controls derived from PlaybackState<br>Permission required for advertising ID<br>Updated non-SDK restrictions
+
+###### Security and privacy
+
+> Safer exporting of context-registered receivers<br>Enhanced photo picker privacy<br>New runtime permission for nearby Wi-Fi devices<br>Exact alarms permission<br>Developer downgradable permissions<br>APK Signature Scheme v3.1<br>Better error reporting in Keystore and KeyMint
+
+> **Note**  
+> Last updated: January 6th, 2023
 
 <a id="api-31"></a>
 ##### [S](https://developer.android.com/about/versions/12)
@@ -57,7 +71,7 @@ pie
 > App hibernation<br>Nearby device permissions<br>Approximate location<br>Bluetooth permissions<br>Permission group lookup<br>Clipboard access notifications<br>Permission package visibility
 
 > **Note**  
-> Last updated: August 4th, 2022
+> Last updated: January 6th, 2023
 
 <a id="api-30"></a>
 ##### [R](https://developer.android.com/about/versions/11)
@@ -75,7 +89,7 @@ pie
 > Scoped storage enforcement<br>One-time permissions<br>Permissions auto-reset<br>Background location access<br>Package visibility<br>Foreground services<br>Secure sharing of large datasets
 
 > **Note**  
-> Last updated: August 4th, 2022
+> Last updated: January 6th, 2023
 
 <a id="api-29"></a>
 ##### [Q](https://developer.android.com/about/versions/10)
@@ -97,7 +111,7 @@ pie
 > New location permissions<br>Storage encryption<br>TLS 1.3 by default<br>Platform hardening<br>Improved biometrics
 
 > **Note**  
-> Last updated: August 4th, 2022
+> Last updated: January 6th, 2023
 
 <a id="api-28"></a>
 ##### [Pie](https://developer.android.com/about/versions/pie/android-9.0)
@@ -123,7 +137,7 @@ pie
 > Navigation semantics<br>Convenience actions<br>Magnifier
 
 > **Note**  
-> Last updated: August 4th, 2022
+> Last updated: January 6th, 2023
 
 <a id="api-27"></a>
 ##### [Oreo](https://developer.android.com/about/versions/oreo/android-8.1)
@@ -145,7 +159,7 @@ pie
 > Fingerprint updates<br>Cryptography updates
 
 > **Note**  
-> Last updated: August 4th, 2022
+> Last updated: January 6th, 2023
 
 <a id="api-26"></a>
 ##### [Oreo](https://developer.android.com/about/versions/oreo/android-8.0)
@@ -175,7 +189,7 @@ pie
 > Platform optimizations<br>Updated Java language support<br>Updated ICU4J Android Framework APIs
 
 > **Note**  
-> Last updated: August 4th, 2022
+> Last updated: January 6th, 2023
 
 <a id="api-25"></a>
 ##### [Nougat](https://developer.android.com/about/versions/nougat/android-7.1.html)
@@ -205,7 +219,7 @@ pie
 > New Screen Densities for Wear Devices
 
 > **Note**  
-> Last updated: August 4th, 2022
+> Last updated: January 6th, 2023
 
 <a id="api-24"></a>
 ##### [Nougat](https://developer.android.com/about/versions/nougat/android-7.0.html)
@@ -255,7 +269,7 @@ pie
 > Print service enhancements
 
 > **Note**  
-> Last updated: August 4th, 2022
+> Last updated: January 6th, 2023
 
 <a id="api-23"></a>
 ##### [Marshmallow](https://developer.android.com/about/versions/marshmallow/android-6.0.html)
@@ -289,7 +303,7 @@ pie
 > Controls for Corporate-Owned, Single-Use devices<br>Silent install and uninstall of apps by Device Owner<br>Silent enterprise certificate access<br>Auto-acceptance of system updates<br>Delegated certificate installation<br>Data usage tracking<br>Runtime permission management<br>Work status notification
 
 > **Note**  
-> Last updated: August 4th, 2022
+> Last updated: January 6th, 2023
 
 <a id="api-22"></a>
 ##### [Lollipop](https://developer.android.com/about/versions/android-5.1.html)
@@ -303,7 +317,7 @@ pie
 > Deprecated HTTP Classes
 
 > **Note**  
-> Last updated: August 4th, 2022
+> Last updated: January 6th, 2023
 
 <a id="api-21"></a>
 ##### [Lollipop](https://developer.android.com/about/versions/android-5.0.html)
@@ -361,7 +375,7 @@ pie
 > Declarable required features<br>User permissions
 
 > **Note**  
-> Last updated: August 4th, 2022
+> Last updated: January 6th, 2023
 
 <a id="api-19"></a>
 ##### [KitKat](https://developer.android.com/about/versions/android-4.4.html)
@@ -399,135 +413,5 @@ pie
 > Immersive full-screen mode<br>Translucent system bars<br>Enhanced notification listener<br>Live regions for accessibility
 
 > **Note**  
-> Last updated: August 4th, 2022
-
-<a id="api-18"></a>
-##### [Jelly Bean](https://developer.android.com/about/versions/android-4.3.html)
-
-###### Restricted Profiles
-
-> App restrictions in profiles<br>Supporting accounts
-
-###### Wireless and Connectivity
-
-> Bluetooth Low Energy (BLE)<br>Wi-Fi scan-only mode<br>Managed Wi-Fi configuration<br>Quick response for incoming calls
-
-###### Multimedia
-
-> MediaExtractor and MediaCodec enhancements<br>Media DRM<br>Video encoding from a Surface<br>Media muxing<br>RemoteControlClient progress and scrubbing
-
-###### Graphics
-
-> Support for OpenGL ES 3.0<br>Mipmapping for drawables
-
-###### User Interface
-
-> View overlays<br>Optical bounds layout<br>Window attach and focus listener<br>TV overscan support<br>Screen orientation preference<br>Rotation animations
-
-###### User Input
-
-> Uncalibrated sensors<br>Game rotation vector sensor
-
-###### Notifications
-
-> Notification listener
-
-###### Contacts Provider
-
-> Contacts provider query
-
-###### Localization
-
-> Improved support for bidirectional text
-
-###### Accessibility
-
-> Handle key events<br>Select text and copy/paste<br>Declare accessibility features
-
-###### Testing and Debugging
-
-> Automated UI testing<br>Systrace events for apps
-
-###### Security
-
-> Android key store for app-private keys<br>Hardware credential storage
-
-> **Note**  
-> Last updated: August 4th, 2022
-
-<a id="api-17"></a>
-##### [Jelly Bean](https://developer.android.com/about/versions/android-4.2.html)
-
-###### Screensaver
-
-> Daydream interactive screensaver
-
-###### Secondary Displays
-
-> Display content on additional screens
-
-###### Lockscreen Widgets
-
-> Add widgets to the lock screen
-
-###### Multiple Users
-
-> Save data in a multi-user environment<br>Identify users in a multi-user environment<br>Global settings
-
-###### User Interface
-
-> Layout orientation for right-to-left (RTL) UIs<br>Nested fragments
-
-###### Multimedia
-
-> RenderScript script intrinsics<br>RenderScript script groups<br>RenderScript Filterscript
-
-> **Note**  
-> Last updated: August 4th, 2022
-
-<a id="api-16"></a>
-##### [Jelly Bean](https://developer.android.com/about/versions/android-4.1.html)
-
-###### App Components
-
-> Isolated services<br>Memory management<br>Content providers<br>Live wallpapers<br>App stack navigation
-
-###### Multimedia
-
-> Media codecs<br>Record audio on cue<br>Timed text tracks<br>Gapless playback
-
-###### Camera
-
-> Auto focus movement<br>Camera sounds
-
-###### Connectivity
-
-> Android Beam over Bluetooth<br>Network service discovery<br>Wi-Fi P2P service discovery<br>Detect metered networks
-
-###### Accessibility
-
-> Accessibility service APIs<br>Customizable app navigation<br>More accessible widgets
-
-###### Copy and Paste
-
-> Copy and paste with intents
-
-###### Multimedia
-
-> Enhanced RenderScript functionality
-
-###### Animations
-
-> Activity launch animations<br>Time animator
-
-###### User Interface
-
-> Improved notifications<br>Controls for system UI<br>Remote views<br>More font families
-
-###### Input Framework
-
-> Multiple input devices<br>Vibrate for input controllers
-
-> **Note**  
-> Last updated: August 4th, 2022
+> Last updated: January 6th, 2023
 
