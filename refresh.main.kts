@@ -2,7 +2,7 @@
 
 @file:Repository("https://repo1.maven.org/maven2/")
 @file:DependsOn("com.squareup.moshi:moshi:1.15.0")
-@file:DependsOn("com.squareup.moshi:moshi-kotlin:1.14.0")
+@file:DependsOn("com.squareup.moshi:moshi-kotlin:1.15.0")
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.Moshi
