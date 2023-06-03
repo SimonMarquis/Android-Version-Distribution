@@ -1,472 +1,475 @@
 [
-{
-  "name": "KitKat",
-  "version": "4.4",
-  "apiLevel": 19,
-  "distributionPercentage": 0.007,
-  "url": "https://developer.android.com/about/versions/android-4.4.html",
-  "descriptionBlocks" : [
-                            {
-                                "title": "Printing Framework",
-                                "body": "Print generic content<br>Print images<br>OEM print services"
-                            },
-                            {
-                                "title": "SMS Provider",
-                                "body": "Read and write SMS and MMS messages<br>Select default SMS app"
-                            },
-                            {
-                                "title": "Wireless and Connectivity",
-                                "body": "Host NFC card emulation<br>NFC reader mode<br>Infrared support"
-                            },
-                            {
-                                "title": "Multimedia",
-                                "body": "Adaptive video playback<br>On-demand audio timestamps<br>Surface image reader<br>Peak and RMS audio measurements<br>Loudness enhancer<br>Remote controllers<br>Closed captions"
-                            },
-                            {
-                                "title": "Animation and Graphics",
-                                "body": "Scenes and transitions<br>Animator pausing<br>Reusable bitmaps"
-                            },
-                            {
-                                "title": "User Content",
-                                "body": "Storage access framework<br>External storage access<br>Sync adapters"
-                            },
-                            {
-                                "title": "User Input",
-                                "body": "New sensor types, including step detector<br>Batched sensor events<br>Controller identities"
-                            },
-                            {
-                                "title": "User Interface",
-                                "body": "Immersive full-screen mode<br>Translucent system bars<br>Enhanced notification listener<br>Live regions for accessibility"
-                            },
-                            {
-                                "title": "",
-                                "body": "Last updated: January 6th, 2023"
-                            }
-                        ]
-},
-{
-  "name": "Lollipop",
-  "version": "5.0",
-  "apiLevel": 21,
-  "distributionPercentage": 0.003,
-  "url": "https://developer.android.com/about/versions/android-5.0.html",
-  "descriptionBlocks" : [
-
-                            {
-                                "title": "User Interface",
-                                "body": "Material design support<br>Concurrent documents and activities in the recents screen<br>WebView updates<br>Screen capturing and sharing"
-                            },
-                            {
-                                "title": "Notifications",
-                                "body": "Lock screen notifications<br>Notifications metadata"
-                            },
-                            {
-                                "title": "Graphics",
-                                "body": "Support for OpenGL ES 3.1<br>Android Extension Pack"
-                            },
-                            {
-                                "title": "Media",
-                                "body": "Camera API for advanced camera capabilities<br>Audio playback<br>Media playback control<br>Media browsing"
-                            },
-                            {
-                                "title": "Storage",
-                                "body": "Directory selection"
-                            },
-                            {
-                                "title": "Wireless & Connectivity",
-                                "body": "Multiple network connections<br>Bluetooth Low Energy<br>NFC enhancements"
-                            },
-                            {
-                                "title": "Battery - Project Volta",
-                                "body": "Scheduling jobs<br>Developer tools for battery usage"
-                            },
-                            {
-                                "title": "Android in the Workplace and in Education",
-                                "body": "Managed provisioning<br>Device owner<br>Screen pinning"
-                            },
-                            {
-                                "title": "Printing Framework",
-                                "body": "Render PDF as bitmap"
-                            },
-                            {
-                                "title": "System",
-                                "body": "App usage statistics"
-                            },
-                            {
-                                "title": "Testing & Accessibility",
-                                "body": "Testing and accessibility improvements"
-                            },
-                            {
-                                "title": "IME",
-                                "body": "Easier switching between input languages"
-                            },
-                            {
-                                "title": "Manifest Declarations",
-                                "body": "Declarable required features<br>User permissions"
-                            },
-                            {
-                                "title": "",
-                                "body": "Last updated: January 6th, 2023"
-                            }
-                        ]
-},
-{
-  "name": "Lollipop",
-  "version": "5.1",
-  "apiLevel": 22,
-  "distributionPercentage": 0.018,
-  "url": "https://developer.android.com/about/versions/android-5.1.html",
-  "descriptionBlocks" : [
-                          {
-                            "title": "Wireless & Connectivity",
-                            "body": "Multiple SIM Card Support<br>Carrier Provisioning"
-                          },
-                          {
-                            "title": "API Change",
-                            "body": "Deprecated HTTP Classes"
-                          },
-                          {
-                              "title": "",
-                              "body": "Last updated: January 6th, 2023"
-                          }
-  ]
-},
-{
-  "name": "Marshmallow",
-  "version": "6.0",
-  "apiLevel": 23,
-  "distributionPercentage": 0.028,
-  "url": "https://developer.android.com/about/versions/marshmallow/android-6.0.html",
-  "descriptionBlocks" : [
-                          {
-                            "title": "Security",
-                            "body": "Fingerprint Authentication<br>Confirm Credential"
-                          },
-                          {
-                            "title": "System",
-                            "body": "App Linking<br>Adoptable Storage Devices"
-                          },
-                          {
-                            "title": "Multimedia",
-                            "body": "4K Display Mode<br>Support for MIDI<br>Create digital audio capture and playback objects<br>APIs to associate audio and input devices<br>List of all audio devices<br>Updated video processing APIs<br>Flashlight API<br>Reprocessing Camera2 API<br>Updated ImageWriter objects and Image Reader class"
-                          },
-                          {
-                            "title": "User Input",
-                            "body": "Voice Interactions<br>Assist API<br>Bluetooth Stylus Support"
-                          },
-                          {
-                            "title": "User Interface",
-                            "body": "Themeable ColorStateLists"
-                          },
-                          {
-                            "title": "Wireless & Connectivity",
-                            "body": "Hotspot 2.0<br>Improved Bluetooth Low Energy Scanning"
-                          },
-                          {
-                            "title": "Android for Work",
-                            "body": "Controls for Corporate-Owned, Single-Use devices<br>Silent install and uninstall of apps by Device Owner<br>Silent enterprise certificate access<br>Auto-acceptance of system updates<br>Delegated certificate installation<br>Data usage tracking<br>Runtime permission management<br>Work status notification"
-                          },
-                            {
-                                "title": "",
-                                "body": "Last updated: January 6th, 2023"
-                            }
-  ]
-},
-{
-  "name": "Nougat",
-  "version": "7.0",
-  "apiLevel": 24,
-  "distributionPercentage": 0.019,
-  "url": "https://developer.android.com/about/versions/nougat/android-7.0.html",
-  "descriptionBlocks" : [
-                          {
-                            "title": "User Interface",
-                            "body": "Multi-window Support<br>Notifications<br>Quick Settings Tile API<br>Custom Pointer API"
-                          },
-                          {
-                            "title": "Performance",
-                            "body": "Profile-guided JIT/AOT Compilation<br>Quick Path to App Install<br>Sustained Performance API<br>Frame Metrics API"
-                          },
-                          {
-                            "title": "Battery Life",
-                            "body": "Doze on the Go<br>Project Svelte: Background Optimizations<br>SurfaceView"
-                          },
-                          {
-                            "title": "Wireless & Connectivity",
-                            "body": "Data Saver<br>Number Blocking<br>Call Screening"
-                          },
-                          {
-                            "title": "Graphics",
-                            "body": "Vulkan API"
-                          },
-                          {
-                            "title": "System",
-                            "body": "Direct Boot<br>Multi-locale Support, More Languages<br>ICU4J APIs in Android<br>APK Signature Scheme v2<br>Scoped Directory Access<br>Keyboard Shortcuts Helper<br>Virtual Files"
-                          },
-                          {
-                            "title": "Android for Work",
-                            "body": "Work profile security challenge<br>Turn off work<br>Always on VPN<br>Customized provisioning"
-                          },
-                          {
-                            "title": "Accessiblity",
-                            "body": "Vision Settings on the Welcome screen"
-                          },
-                          {
-                            "title": "Security",
-                            "body": "Key Attestation<br>Network Security Config<br>Default Trusted Certificate Authority"
-                          },
-                          {
-                            "title": "VR",
-                            "body": "Platform support and optimizations for VR Mode"
-                          },
-                          {
-                            "title": "Printing Framework",
-                            "body": "Print service enhancements"
-                          },
-                            {
-                                "title": "",
-                                "body": "Last updated: January 6th, 2023"
-                            }
-  ]
-},
-{
-  "name": "Nougat",
-  "version": "7.1",
-  "apiLevel": 25,
-  "distributionPercentage": 0.018,
-  "url": "https://developer.android.com/about/versions/nougat/android-7.1.html",
-  "descriptionBlocks" : [
-                          {
-                            "title": "System",
-                            "body": "Enhanced Live Wallpaper Metadata<br>Storage Manager Intent<br>Demo User Hint"
-                          },
-                          {
-                            "title": "VR",
-                            "body": "Improved VR Thread Scheduling"
-                          },
-                          {
-                            "title": "User Interface",
-                            "body": "App Shortcuts<br>Round Icon Resources"
-                          },
-                          {
-                            "title": "User Input",
-                            "body": "Image Keyboard Support<br>New Professional Emoji"
-                          },
-                          {
-                            "title": "Wireless & Connectivity",
-                            "body": "APIs for Carriers and Calling Apps"
-                          },
-                          {
-                            "title": "Wear",
-                            "body": "New Screen Densities for Wear Devices"
-                          },
-                            {
-                                "title": "",
-                                "body": "Last updated: January 6th, 2023"
-                            }
-  ]
-},
+  {
+    "name": "KitKat",
+    "version": "4.4",
+    "apiLevel": 19,
+    "distributionPercentage": 0.005,
+    "url": "https://developer.android.com/about/versions/android-4.4.html",
+    "descriptionBlocks": [
+      {
+        "title": "Printing Framework",
+        "body": "Print generic content<br>Print images<br>OEM print services"
+      },
+      {
+        "title": "SMS Provider",
+        "body": "Read and write SMS and MMS messages<br>Select default SMS app"
+      },
+      {
+        "title": "Wireless and Connectivity",
+        "body": "Host NFC card emulation<br>NFC reader mode<br>Infrared support"
+      },
+      {
+        "title": "Multimedia",
+        "body": "Adaptive video playback<br>On-demand audio timestamps<br>Surface image reader<br>Peak and RMS audio measurements<br>Loudness enhancer<br>Remote controllers<br>Closed captions"
+      },
+      {
+        "title": "Animation and Graphics",
+        "body": "Scenes and transitions<br>Animator pausing<br>Reusable bitmaps"
+      },
+      {
+        "title": "User Content",
+        "body": "Storage access framework<br>External storage access<br>Sync adapters"
+      },
+      {
+        "title": "User Input",
+        "body": "New sensor types, including step detector<br>Batched sensor events<br>Controller identities"
+      },
+      {
+        "title": "User Interface",
+        "body": "Immersive full-screen mode<br>Translucent system bars<br>Enhanced notification listener<br>Live regions for accessibility"
+      },
+      {
+        "title": "",
+        "body": "Last updated: May 30, 2023"
+      }
+    ]
+  },
+  {
+    "name": "Lollipop",
+    "version": "5.0",
+    "apiLevel": 21,
+    "distributionPercentage": 0.003,
+    "url": "https://developer.android.com/about/versions/android-5.0.html",
+    "descriptionBlocks": [
+      {
+        "title": "User Interface",
+        "body": "Material design support<br>Concurrent documents and activities in the recents screen<br>WebView updates<br>Screen capturing and sharing"
+      },
+      {
+        "title": "Notifications",
+        "body": "Lock screen notifications<br>Notifications metadata"
+      },
+      {
+        "title": "Graphics",
+        "body": "Support for OpenGL ES 3.1<br>Android Extension Pack"
+      },
+      {
+        "title": "Media",
+        "body": "Camera API for advanced camera capabilities<br>Audio playback<br>Media playback control<br>Media browsing"
+      },
+      {
+        "title": "Storage",
+        "body": "Directory selection"
+      },
+      {
+        "title": "Wireless & Connectivity",
+        "body": "Multiple network connections<br>Bluetooth Low Energy<br>NFC enhancements"
+      },
+      {
+        "title": "Battery - Project Volta",
+        "body": "Scheduling jobs<br>Developer tools for battery usage"
+      },
+      {
+        "title": "Android in the Workplace and in Education",
+        "body": "Managed provisioning<br>Device owner<br>Screen pinning"
+      },
+      {
+        "title": "Printing Framework",
+        "body": "Render PDF as bitmap"
+      },
+      {
+        "title": "System",
+        "body": "App usage statistics"
+      },
+      {
+        "title": "Testing & Accessibility",
+        "body": "Testing and accessibility improvements"
+      },
+      {
+        "title": "IME",
+        "body": "Easier switching between input languages"
+      },
+      {
+        "title": "Manifest Declarations",
+        "body": "Declarable required features<br>User permissions"
+      },
+      {
+        "title": "",
+        "body": "Last updated: May 30, 2023"
+      }
+    ]
+  },
+  {
+    "name": "Lollipop",
+    "version": "5.1",
+    "apiLevel": 22,
+    "distributionPercentage": 0.015,
+    "url": "https://developer.android.com/about/versions/android-5.1.html",
+    "descriptionBlocks": [
+      {
+        "title": "Wireless & Connectivity",
+        "body": "Multiple SIM Card Support<br>Carrier Provisioning"
+      },
+      {
+        "title": "API Change",
+        "body": "Deprecated HTTP Classes"
+      },
+      {
+        "title": "",
+        "body": "Last updated: May 30, 2023"
+      }
+    ]
+  },
+  {
+    "name": "Marshmallow",
+    "version": "6.0",
+    "apiLevel": 23,
+    "distributionPercentage": 0.023,
+    "url": "https://developer.android.com/about/versions/marshmallow/android-6.0.html",
+    "descriptionBlocks": [
+      {
+        "title": "Security",
+        "body": "Fingerprint Authentication<br>Confirm Credential"
+      },
+      {
+        "title": "System",
+        "body": "App Linking<br>Adoptable Storage Devices"
+      },
+      {
+        "title": "Multimedia",
+        "body": "4K Display Mode<br>Support for MIDI<br>Create digital audio capture and playback objects<br>APIs to associate audio and input devices<br>List of all audio devices<br>Updated video processing APIs<br>Flashlight API<br>Reprocessing Camera2 API<br>Updated ImageWriter objects and Image Reader class"
+      },
+      {
+        "title": "User Input",
+        "body": "Voice Interactions<br>Assist API<br>Bluetooth Stylus Support"
+      },
+      {
+        "title": "User Interface",
+        "body": "Themeable ColorStateLists"
+      },
+      {
+        "title": "Wireless & Connectivity",
+        "body": "Hotspot 2.0<br>Improved Bluetooth Low Energy Scanning"
+      },
+      {
+        "title": "Android for Work",
+        "body": "Controls for Corporate-Owned, Single-Use devices<br>Silent install and uninstall of apps by Device Owner<br>Silent enterprise certificate access<br>Auto-acceptance of system updates<br>Delegated certificate installation<br>Data usage tracking<br>Runtime permission management<br>Work status notification"
+      },
+      {
+        "title": "",
+        "body": "Last updated: May 30, 2023"
+      }
+    ]
+  },
+  {
+    "name": "Nougat",
+    "version": "7.0",
+    "apiLevel": 24,
+    "distributionPercentage": 0.015,
+    "url": "https://developer.android.com/about/versions/nougat/android-7.0.html",
+    "descriptionBlocks": [
+      {
+        "title": "User Interface",
+        "body": "Multi-window Support<br>Notifications<br>Quick Settings Tile API<br>Custom Pointer API"
+      },
+      {
+        "title": "Performance",
+        "body": "Profile-guided JIT/AOT Compilation<br>Quick Path to App Install<br>Sustained Performance API<br>Frame Metrics API"
+      },
+      {
+        "title": "Battery Life",
+        "body": "Doze on the Go<br>Project Svelte: Background Optimizations<br>SurfaceView"
+      },
+      {
+        "title": "Wireless & Connectivity",
+        "body": "Data Saver<br>Number Blocking<br>Call Screening"
+      },
+      {
+        "title": "Graphics",
+        "body": "Vulkan API"
+      },
+      {
+        "title": "System",
+        "body": "Direct Boot<br>Multi-locale Support, More Languages<br>ICU4J APIs in Android<br>APK Signature Scheme v2<br>Scoped Directory Access<br>Keyboard Shortcuts Helper<br>Virtual Files"
+      },
+      {
+        "title": "Android for Work",
+        "body": "Work profile security challenge<br>Turn off work<br>Always on VPN<br>Customized provisioning"
+      },
+      {
+        "title": "Accessiblity",
+        "body": "Vision Settings on the Welcome screen"
+      },
+      {
+        "title": "Security",
+        "body": "Key Attestation<br>Network Security Config<br>Default Trusted Certificate Authority"
+      },
+      {
+        "title": "VR",
+        "body": "Platform support and optimizations for VR Mode"
+      },
+      {
+        "title": "Printing Framework",
+        "body": "Print service enhancements"
+      },
+      {
+        "title": "",
+        "body": "Last updated: May 30, 2023"
+      }
+    ]
+  },
+  {
+    "name": "Nougat",
+    "version": "7.1",
+    "apiLevel": 25,
+    "distributionPercentage": 0.015,
+    "url": "https://developer.android.com/about/versions/nougat/android-7.1.html",
+    "descriptionBlocks": [
+      {
+        "title": "System",
+        "body": "Enhanced Live Wallpaper Metadata<br>Storage Manager Intent<br>Demo User Hint"
+      },
+      {
+        "title": "VR",
+        "body": "Improved VR Thread Scheduling"
+      },
+      {
+        "title": "User Interface",
+        "body": "App Shortcuts<br>Round Icon Resources"
+      },
+      {
+        "title": "User Input",
+        "body": "Image Keyboard Support<br>New Professional Emoji"
+      },
+      {
+        "title": "Wireless & Connectivity",
+        "body": "APIs for Carriers and Calling Apps"
+      },
+      {
+        "title": "Wear",
+        "body": "New Screen Densities for Wear Devices"
+      },
+      {
+        "title": "",
+        "body": "Last updated: May 30, 2023"
+      }
+    ]
+  },
   {
     "name": "Oreo",
     "version": "8.0",
     "apiLevel": 26,
-    "distributionPercentage": 0.026,
+    "distributionPercentage": 0.022,
     "url": "https://developer.android.com/about/versions/oreo/android-8.0",
-    "descriptionBlocks" : [
-                            {
-                              "title": "System",
-                              "body": "Custom data store<br>JobScheduler improvements<br>Cached data"
-                            },
-                            {
-                              "title": "User Interface",
-                              "body": "Picture-in-Picture mode<br>Improved Notifications<br>Autofill framework<br>Downloadable fonts<br>Multi-display support<br>Adaptive icons"
-                            },
-                            {
-                              "title": "Media",
-                              "body": "VolumeShaper<br>Audio focus enhancements<br>Media metrics<br>MediaPlayer and MediaRecorder improvements<br>Improved media file access"
-                            },
-                            {
-                              "title": "Wireless & Connectivity",
-                              "body": "Wi-Fi Aware<br>Bluetooth updates<br>Companion device pairing"
-                            },
-                            {
-                              "title": "Security & Privacy",
-                              "body": "New permissions<br>New account access and discovery APIs"
-                            },
-                            {
-                              "title": "Runtime & Tools",
-                              "body": "Platform optimizations<br>Updated Java language support<br>Updated ICU4J Android Framework APIs"
-                            },
-                            {
-                                "title": "",
-                                "body": "Last updated: January 6th, 2023"
-                            }
+    "descriptionBlocks": [
+      {
+        "title": "System",
+        "body": "Custom data store<br>JobScheduler improvements<br>Cached data"
+      },
+      {
+        "title": "User Interface",
+        "body": "Picture-in-Picture mode<br>Improved Notifications<br>Autofill framework<br>Downloadable fonts<br>Multi-display support<br>Adaptive icons"
+      },
+      {
+        "title": "Media",
+        "body": "VolumeShaper<br>Audio focus enhancements<br>Media metrics<br>MediaPlayer and MediaRecorder improvements<br>Improved media file access"
+      },
+      {
+        "title": "Wireless & Connectivity",
+        "body": "Wi-Fi Aware<br>Bluetooth updates<br>Companion device pairing"
+      },
+      {
+        "title": "Security & Privacy",
+        "body": "New permissions<br>New account access and discovery APIs"
+      },
+      {
+        "title": "Runtime & Tools",
+        "body": "Platform optimizations<br>Updated Java language support<br>Updated ICU4J Android Framework APIs"
+      },
+      {
+        "title": "",
+        "body": "Last updated: May 30, 2023"
+      }
     ]
   },
   {
     "name": "Oreo",
     "version": "8.1",
     "apiLevel": 27,
-    "distributionPercentage": 0.069,
+    "distributionPercentage": 0.061,
     "url": "https://developer.android.com/about/versions/oreo/android-8.1",
-    "descriptionBlocks" : [
-                            {
-                              "title": "System",
-                              "body": "Android Go<br>Neural Networks API<br>Programmatic Safe Browsing actions<br>Shared memory API"
-                            },
-                            {
-                              "title": "User Interface",
-                              "body": "Improved Notifications<br>EditText update<br>WallpaperColors API"
-                            },
-                            {
-                              "title": "Media",
-                              "body": "Video thumbnail extractor"
-                            },
-                            {
-                              "title": "Security & Privacy",
-                              "body": "Fingerprint updates<br>Cryptography updates"
-                            },
-                            {
-                                "title": "",
-                                "body": "Last updated: January 6th, 2023"
-                            }
+    "descriptionBlocks": [
+      {
+        "title": "System",
+        "body": "Android Go<br>Neural Networks API<br>Programmatic Safe Browsing actions<br>Shared memory API"
+      },
+      {
+        "title": "User Interface",
+        "body": "Improved Notifications<br>EditText update<br>WallpaperColors API"
+      },
+      {
+        "title": "Media",
+        "body": "Video thumbnail extractor"
+      },
+      {
+        "title": "Security & Privacy",
+        "body": "Fingerprint updates<br>Cryptography updates"
+      },
+      {
+        "title": "",
+        "body": "Last updated: May 30, 2023"
+      }
     ]
   },
   {
     "name": "Pie",
     "version": "9.0",
     "apiLevel": 28,
-    "distributionPercentage": 0.132,
+    "distributionPercentage": 0.119,
     "url": "https://developer.android.com/about/versions/pie/android-9.0",
-    "descriptionBlocks" : [
-                            {
-                              "title": "System",
-                              "body": "Indoor positioning with Wi-Fi RTT<br>Multi-camera support<br>Display cutout support"
-                            },
-                            {
-                              "title": "User Interface",
-                              "body": "Improved notifications<br>Improved text support<br>ImageDecoder and new animation classes"
-                            },
-                            {
-                              "title": "Media",
-                              "body": "HDR VP9 video<br>HEIF image compression<br>Improved media APIs"
-                            },
-                            {
-                              "title": "Security and privacy",
-                              "body": "Android Protected Confirmation<br>Biometric authentication dialogs<br>Hardware security module<br>Secure key import<br>Client-side encryption backups"
-                            },
-                            {
-                              "title": "Accessibility",
-                              "body": "Navigation semantics<br>Convenience actions<br>Magnifier"
-                            },
-                            {
-                                "title": "",
-                                "body": "Last updated: January 6th, 2023"
-                            }
+    "descriptionBlocks": [
+      {
+        "title": "System",
+        "body": "Indoor positioning with Wi-Fi RTT<br>Multi-camera support<br>Display cutout support"
+      },
+      {
+        "title": "User Interface",
+        "body": "Improved notifications<br>Improved text support<br>ImageDecoder and new animation classes"
+      },
+      {
+        "title": "Media",
+        "body": "HDR VP9 video<br>HEIF image compression<br>Improved media APIs"
+      },
+      {
+        "title": "Security and privacy",
+        "body": "Android Protected Confirmation<br>Biometric authentication dialogs<br>Hardware security module<br>Secure key import<br>Client-side encryption backups"
+      },
+      {
+        "title": "Accessibility",
+        "body": "Navigation semantics<br>Convenience actions<br>Magnifier"
+      },
+      {
+        "title": "",
+        "body": "Last updated: May 30, 2023"
+      }
     ]
   },
   {
     "name": "Q",
     "version": "10.0",
     "apiLevel": 29,
-    "distributionPercentage": 0.195,
+    "distributionPercentage": 0.178,
     "url": "https://developer.android.com/about/versions/10",
-    "descriptionBlocks" : [
-                            {
-                              "title": "System",
-                              "body": "Foldables support<br>5G support<br>Gesture navigation<br>ART optimizations<br>Neural Networks API 1.2<br>Thermal API"
-                            },
-                            {
-                              "title": "User Interface",
-                              "body": "Smart Reply in notifications<br>Dark theme<br>Settings panels<br>Sharing shortcuts"
-                            },
-                            {
-                              "title": "Camera and media",
-                              "body": "Dynamic depth for photos<br>Audio playback capture<br>New codecs<br>Native MIDI API<br>Vulkan everywhere<br>Directional microphones"
-                            },
-                            {
-                              "title": "Security and privacy",
-                              "body": "New location permissions<br>Storage encryption<br>TLS 1.3 by default<br>Platform hardening<br>Improved biometrics"
-                            },
-                            {
-                                "title": "",
-                                "body": "Last updated: January 6th, 2023"
-                            }
+    "descriptionBlocks": [
+      {
+        "title": "System",
+        "body": "Foldables support<br>5G support<br>Gesture navigation<br>ART optimizations<br>Neural Networks API 1.2<br>Thermal API"
+      },
+      {
+        "title": "User Interface",
+        "body": "Smart Reply in notifications<br>Dark theme<br>Settings panels<br>Sharing shortcuts"
+      },
+      {
+        "title": "Camera and media",
+        "body": "Dynamic depth for photos<br>Audio playback capture<br>New codecs<br>Native MIDI API<br>Vulkan everywhere<br>Directional microphones"
+      },
+      {
+        "title": "Security and privacy",
+        "body": "New location permissions<br>Storage encryption<br>TLS 1.3 by default<br>Platform hardening<br>Improved biometrics"
+      },
+      {
+        "title": "",
+        "body": "Last updated: May 30, 2023"
+      }
     ]
   },
   {
     "name": "R",
     "version": "11.0",
     "apiLevel": 30,
-    "distributionPercentage": 0.244,
+    "distributionPercentage": 0.231,
     "url": "https://developer.android.com/about/versions/11",
-    "descriptionBlocks" : [
-                            {
-                              "title": "New features",
-                              "body": "Chat Bubbles<br>Conversation improvements<br>Wireless debugging<br>Neural Networks API 1.3<br>Frame rate API"
-                            },
-                            {
-                              "title": "Behavior changes",
-                              "body": "Exposure Notifications<br>Conscrypt SSL engine by default<br>Non-SDK interface restrictions<br>URI access permissions requirements"
-                            },
-                            {
-                              "title": "Security and privacy",
-                              "body": "Scoped storage enforcement<br>One-time permissions<br>Permissions auto-reset<br>Background location access<br>Package visibility<br>Foreground services<br>Secure sharing of large datasets"
-                            },
-                            {
-                                "title": "",
-                                "body": "Last updated: January 6th, 2023"
-                            }
+    "descriptionBlocks": [
+      {
+        "title": "New features",
+        "body": "Chat Bubbles<br>Conversation improvements<br>Wireless debugging<br>Neural Networks API 1.3<br>Frame rate API"
+      },
+      {
+        "title": "Behavior changes",
+        "body": "Exposure Notifications<br>Conscrypt SSL engine by default<br>Non-SDK interface restrictions<br>URI access permissions requirements"
+      },
+      {
+        "title": "Security and privacy",
+        "body": "Scoped storage enforcement<br>One-time permissions<br>Permissions auto-reset<br>Background location access<br>Package visibility<br>Foreground services<br>Secure sharing of large datasets"
+      },
+      {
+        "title": "",
+        "body": "Last updated: May 30, 2023"
+      }
     ]
   },
   {
     "name": "S",
     "version": "12.0",
     "apiLevel": 31,
-    "distributionPercentage": 0.189,
+    "distributionPercentage": 0.163,
     "url": "https://developer.android.com/about/versions/12",
-    "descriptionBlocks" : [
-                            {
-                              "title": "New features",
-                              "body": "Material You<br>Redesigned widgets<br><br>Game Mode<br>Rich content insertion<br>AppSearch API<br>Compatible media transcoding<br>Improved notifications"
-                            },
-                            {
-                              "title": "Behavior changes",
-                              "body": "Performance Classes<br>Stretch overscroll<br>App splash screens<br>Restricted App Standby Bucket<br>Improved refresh rate switching<br>Passpoint updates"
-                            },
-                            {
-                              "title": "Security and privacy",
-                              "body": "App hibernation<br>Nearby device permissions<br>Approximate location<br>Bluetooth permissions<br>Permission group lookup<br>Clipboard access notifications<br>Permission package visibility"
-                            },
-                            {
-                                "title": "",
-                                "body": "Last updated: January 6th, 2023"
-                            }
+    "descriptionBlocks": [
+      {
+        "title": "New features",
+        "body": "Material You<br>Redesigned widgets<br><br>Game Mode<br>Rich content insertion<br>AppSearch API<br>Compatible media transcoding<br>Improved notifications"
+      },
+      {
+        "title": "Behavior changes",
+        "body": "Performance Classes<br>Stretch overscroll<br>App splash screens<br>Restricted App Standby Bucket<br>Improved refresh rate switching<br>Passpoint updates"
+      },
+      {
+        "title": "Security and privacy",
+        "body": "App hibernation<br>Nearby device permissions<br>Approximate location<br>Bluetooth permissions<br>Permission group lookup<br>Clipboard access notifications<br>Permission package visibility"
+      },
+      {
+        "title": "Large screen support (12L)",
+        "body": "System UI optimizations<br>App taskbar<br>Drag and drop an app into split-screen mode<br>fast app-switching<br>Visual and stability improvements to compatibility mode<br>Activity embedding with Jetpack WindowManager"
+      },
+      {
+        "title": "",
+        "body": "Last updated: May 30, 2023"
+      }
     ]
   },
   {
     "name": "T",
     "version": "13.0",
     "apiLevel": 33,
-    "distributionPercentage": 0.05,
+    "distributionPercentage": 0.147,
     "url": "https://developer.android.com/about/versions/13",
-    "descriptionBlocks" : [
-                            {
-                              "title": "New features",
-                              "body": "Tablet and large screen support<br>Programmable shaders<br>Color vector fonts<br>Predictive back gesture<br>Bluetooth LE Audio<br>Splash screen efficiency improvements<br>ART optimizations"
-                            },
-                            {
-                              "title": "Behavior changes",
-                              "body": "OpenJDK 11 updates<br>Battery Resource Utilization<br>Media controls derived from PlaybackState<br>Permission required for advertising ID<br>Updated non-SDK restrictions"
-                            },
-                            {
-                              "title": "Security and privacy",
-                              "body": "Safer exporting of context-registered receivers<br>Enhanced photo picker privacy<br>New runtime permission for nearby Wi-Fi devices<br>Exact alarms permission<br>Developer downgradable permissions<br>APK Signature Scheme v3.1<br>Better error reporting in Keystore and KeyMint"
-                            },
-                            {
-                                "title": "",
-                                "body": "Last updated: January 6th, 2023"
-                            }
+    "descriptionBlocks": [
+      {
+        "title": "New features",
+        "body": "Tablet and large screen support<br>Programmable shaders<br>Color vector fonts<br>Predictive back gesture<br>Bluetooth LE Audio<br>Splash screen efficiency improvements<br>ART optimizations"
+      },
+      {
+        "title": "Behavior changes",
+        "body": "OpenJDK 11 updates<br>Battery Resource Utilization<br>Media controls derived from PlaybackState<br>Permission required for advertising ID<br>Updated non-SDK restrictions"
+      },
+      {
+        "title": "Security and privacy",
+        "body": "Safer exporting of context-registered receivers<br>Enhanced photo picker privacy<br>New runtime permission for nearby Wi-Fi devices<br>Exact alarms permission<br>Developer downgradable permissions<br>APK Signature Scheme v3.1<br>Better error reporting in Keystore and KeyMint"
+      },
+      {
+        "title": "",
+        "body": "Last updated: May 30, 2023"
+      }
     ]
   }
 ]
