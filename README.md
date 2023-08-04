@@ -52,7 +52,7 @@ pie
 
 > Safer exporting of context-registered receivers<br>Enhanced photo picker privacy<br>New runtime permission for nearby Wi-Fi devices<br>Exact alarms permission<br>Developer downgradable permissions<br>APK Signature Scheme v3.1<br>Better error reporting in Keystore and KeyMint
 
-> **Note**  
+> [!NOTE]  
 > Last updated: May 30, 2023
 
 <a id="api-31"></a>
@@ -74,7 +74,7 @@ pie
 
 > System UI optimizations<br>App taskbar<br>Drag and drop an app into split-screen mode<br>fast app-switching<br>Visual and stability improvements to compatibility mode<br>Activity embedding with Jetpack WindowManager
 
-> **Note**  
+> [!NOTE]  
 > Last updated: May 30, 2023
 
 <a id="api-30"></a>
@@ -92,7 +92,7 @@ pie
 
 > Scoped storage enforcement<br>One-time permissions<br>Permissions auto-reset<br>Background location access<br>Package visibility<br>Foreground services<br>Secure sharing of large datasets
 
-> **Note**  
+> [!NOTE]  
 > Last updated: May 30, 2023
 
 <a id="api-29"></a>
@@ -114,7 +114,7 @@ pie
 
 > New location permissions<br>Storage encryption<br>TLS 1.3 by default<br>Platform hardening<br>Improved biometrics
 
-> **Note**  
+> [!NOTE]  
 > Last updated: May 30, 2023
 
 <a id="api-28"></a>
@@ -140,7 +140,7 @@ pie
 
 > Navigation semantics<br>Convenience actions<br>Magnifier
 
-> **Note**  
+> [!NOTE]  
 > Last updated: May 30, 2023
 
 <a id="api-27"></a>
@@ -162,7 +162,7 @@ pie
 
 > Fingerprint updates<br>Cryptography updates
 
-> **Note**  
+> [!NOTE]  
 > Last updated: May 30, 2023
 
 <a id="api-26"></a>
@@ -192,7 +192,7 @@ pie
 
 > Platform optimizations<br>Updated Java language support<br>Updated ICU4J Android Framework APIs
 
-> **Note**  
+> [!NOTE]  
 > Last updated: May 30, 2023
 
 <a id="api-25"></a>
@@ -222,7 +222,7 @@ pie
 
 > New Screen Densities for Wear Devices
 
-> **Note**  
+> [!NOTE]  
 > Last updated: May 30, 2023
 
 <a id="api-24"></a>
@@ -272,7 +272,7 @@ pie
 
 > Print service enhancements
 
-> **Note**  
+> [!NOTE]  
 > Last updated: May 30, 2023
 
 <a id="api-23"></a>
@@ -306,7 +306,7 @@ pie
 
 > Controls for Corporate-Owned, Single-Use devices<br>Silent install and uninstall of apps by Device Owner<br>Silent enterprise certificate access<br>Auto-acceptance of system updates<br>Delegated certificate installation<br>Data usage tracking<br>Runtime permission management<br>Work status notification
 
-> **Note**  
+> [!NOTE]  
 > Last updated: May 30, 2023
 
 <a id="api-22"></a>
@@ -320,7 +320,7 @@ pie
 
 > Deprecated HTTP Classes
 
-> **Note**  
+> [!NOTE]  
 > Last updated: May 30, 2023
 
 <a id="api-21"></a>
@@ -378,7 +378,7 @@ pie
 
 > Declarable required features<br>User permissions
 
-> **Note**  
+> [!NOTE]  
 > Last updated: May 30, 2023
 
 <a id="api-19"></a>
@@ -416,6 +416,6 @@ pie
 
 > Immersive full-screen mode<br>Translucent system bars<br>Enhanced notification listener<br>Live regions for accessibility
 
-> **Note**  
+> [!NOTE]  
 > Last updated: May 30, 2023
 
