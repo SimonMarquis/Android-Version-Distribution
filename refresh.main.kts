@@ -72,7 +72,7 @@ buildString {
         appendLine("##### [${distribution.name}](${distribution.url})\n")
         distribution.blocks.forEach { block ->
             when {
-                block.title.isBlank() -> appendLine("> **Note**  ")
+                block.title.isBlank() -> appendLine("> [!NOTE]  ")
                 else -> appendLine("###### ${block.title}\n")
             }
             appendLine("> ${block.body}\n")
