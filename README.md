@@ -2,37 +2,37 @@
 
 | Name | Version | API |  % |
 |------|--------:|----:|---:|
-| [T](#api-33) | 13.0 | 33 | 14.7% |
-| [S](#api-31) | 12.0 | 31 | 16.3% |
-| [R](#api-30) | 11.0 | 30 | 23.1% |
-| [Q](#api-29) | 10.0 | 29 | 17.8% |
-| [Pie](#api-28) | 9.0 | 28 | 11.9% |
-| [Oreo](#api-27) | 8.1 | 27 | 6.1% |
-| [Oreo](#api-26) | 8.0 | 26 | 2.2% |
-| [Nougat](#api-25) | 7.1 | 25 | 1.5% |
-| [Nougat](#api-24) | 7.0 | 24 | 1.5% |
-| [Marshmallow](#api-23) | 6.0 | 23 | 2.3% |
-| [Lollipop](#api-22) | 5.1 | 22 | 1.5% |
-| [Lollipop](#api-21) | 5.0 | 21 | 0.3% |
-| [KitKat](#api-19) | 4.4 | 19 | 0.5% |
+| [T](#api-33) | 13 | 33 | 22.1% |
+| [S](#api-31) | 12 | 31 | 15.8% |
+| [R](#api-30) | 11 | 30 | 21.6% |
+| [Q](#api-29) | 10 | 29 | 16.1% |
+| [Pie](#api-28) | 9 | 28 | 10.5% |
+| [Oreo](#api-27) | 8.1 | 27 | 5.4% |
+| [Oreo](#api-26) | 8 | 26 | 1.9% |
+| [Nougat](#api-25) | 7.1 | 25 | 1.3% |
+| [Nougat](#api-24) | 7 | 24 | 1.3% |
+| [Marshmallow](#api-23) | 6 | 23 | 1.9% |
+| [Lollipop](#api-22) | 5.1 | 22 | 1.2% |
+| [Lollipop](#api-21) | 5 | 21 | 0.2% |
+| [KitKat](#api-19) | 4.4 | 19 | 0.4% |
 
 ---
 
 ```mermaid
 pie
-    "R (11.0)" : 23.1
-    "Q (10.0)" : 17.8
-    "S (12.0)" : 16.3
-    "T (13.0)" : 14.7
-    "Pie (9.0)" : 11.9
-    "Oreo (8.1)" : 6.1
-    "Marshmallow (6.0)" : 2.3
-    "Oreo (8.0)" : 2.2
-    "Nougat (7.1)" : 1.5
-    "Nougat (7.0)" : 1.5
-    "Lollipop (5.1)" : 1.5
-    "KitKat (4.4)" : 0.5
-    "Lollipop (5.0)" : 0.3
+    "T (13)" : 22.1
+    "R (11)" : 21.6
+    "Q (10)" : 16.1
+    "S (12)" : 15.8
+    "Pie (9)" : 10.5
+    "Oreo (8.1)" : 5.4
+    "Oreo (8)" : 1.9
+    "Marshmallow (6)" : 1.9
+    "Nougat (7.1)" : 1.3
+    "Nougat (7)" : 1.3
+    "Lollipop (5.1)" : 1.2
+    "KitKat (4.4)" : 0.4
+    "Lollipop (5)" : 0.2
 ```
 
 ---
@@ -53,7 +53,7 @@ pie
 > Safer exporting of context-registered receivers<br>Enhanced photo picker privacy<br>New runtime permission for nearby Wi-Fi devices<br>Exact alarms permission<br>Developer downgradable permissions<br>APK Signature Scheme v3.1<br>Better error reporting in Keystore and KeyMint
 
 > [!NOTE]  
-> Last updated: May 30, 2023
+> Last updated: October 1, 2023
 
 <a id="api-31"></a>
 ##### [S](https://developer.android.com/about/versions/12)
@@ -75,7 +75,7 @@ pie
 > System UI optimizations<br>App taskbar<br>Drag and drop an app into split-screen mode<br>fast app-switching<br>Visual and stability improvements to compatibility mode<br>Activity embedding with Jetpack WindowManager
 
 > [!NOTE]  
-> Last updated: May 30, 2023
+> Last updated: October 1, 2023
 
 <a id="api-30"></a>
 ##### [R](https://developer.android.com/about/versions/11)
@@ -93,7 +93,7 @@ pie
 > Scoped storage enforcement<br>One-time permissions<br>Permissions auto-reset<br>Background location access<br>Package visibility<br>Foreground services<br>Secure sharing of large datasets
 
 > [!NOTE]  
-> Last updated: May 30, 2023
+> Last updated: October 1, 2023
 
 <a id="api-29"></a>
 ##### [Q](https://developer.android.com/about/versions/10)
@@ -115,7 +115,7 @@ pie
 > New location permissions<br>Storage encryption<br>TLS 1.3 by default<br>Platform hardening<br>Improved biometrics
 
 > [!NOTE]  
-> Last updated: May 30, 2023
+> Last updated: October 1, 2023
 
 <a id="api-28"></a>
 ##### [Pie](https://developer.android.com/about/versions/pie/android-9.0)
@@ -141,7 +141,7 @@ pie
 > Navigation semantics<br>Convenience actions<br>Magnifier
 
 > [!NOTE]  
-> Last updated: May 30, 2023
+> Last updated: October 1, 2023
 
 <a id="api-27"></a>
 ##### [Oreo](https://developer.android.com/about/versions/oreo/android-8.1)
@@ -163,7 +163,7 @@ pie
 > Fingerprint updates<br>Cryptography updates
 
 > [!NOTE]  
-> Last updated: May 30, 2023
+> Last updated: October 1, 2023
 
 <a id="api-26"></a>
 ##### [Oreo](https://developer.android.com/about/versions/oreo/android-8.0)
@@ -193,7 +193,7 @@ pie
 > Platform optimizations<br>Updated Java language support<br>Updated ICU4J Android Framework APIs
 
 > [!NOTE]  
-> Last updated: May 30, 2023
+> Last updated: October 1, 2023
 
 <a id="api-25"></a>
 ##### [Nougat](https://developer.android.com/about/versions/nougat/android-7.1.html)
@@ -223,7 +223,7 @@ pie
 > New Screen Densities for Wear Devices
 
 > [!NOTE]  
-> Last updated: May 30, 2023
+> Last updated: October 1, 2023
 
 <a id="api-24"></a>
 ##### [Nougat](https://developer.android.com/about/versions/nougat/android-7.0.html)
@@ -273,7 +273,7 @@ pie
 > Print service enhancements
 
 > [!NOTE]  
-> Last updated: May 30, 2023
+> Last updated: October 1, 2023
 
 <a id="api-23"></a>
 ##### [Marshmallow](https://developer.android.com/about/versions/marshmallow/android-6.0.html)
@@ -307,7 +307,7 @@ pie
 > Controls for Corporate-Owned, Single-Use devices<br>Silent install and uninstall of apps by Device Owner<br>Silent enterprise certificate access<br>Auto-acceptance of system updates<br>Delegated certificate installation<br>Data usage tracking<br>Runtime permission management<br>Work status notification
 
 > [!NOTE]  
-> Last updated: May 30, 2023
+> Last updated: October 1, 2023
 
 <a id="api-22"></a>
 ##### [Lollipop](https://developer.android.com/about/versions/android-5.1.html)
@@ -321,7 +321,7 @@ pie
 > Deprecated HTTP Classes
 
 > [!NOTE]  
-> Last updated: May 30, 2023
+> Last updated: October 1, 2023
 
 <a id="api-21"></a>
 ##### [Lollipop](https://developer.android.com/about/versions/android-5.0.html)
@@ -379,7 +379,7 @@ pie
 > Declarable required features<br>User permissions
 
 > [!NOTE]  
-> Last updated: May 30, 2023
+> Last updated: October 1, 2023
 
 <a id="api-19"></a>
 ##### [KitKat](https://developer.android.com/about/versions/android-4.4.html)
@@ -417,5 +417,5 @@ pie
 > Immersive full-screen mode<br>Translucent system bars<br>Enhanced notification listener<br>Live regions for accessibility
 
 > [!NOTE]  
-> Last updated: May 30, 2023
+> Last updated: October 1, 2023
 
