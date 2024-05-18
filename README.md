@@ -2,40 +2,60 @@
 
 | Name | Version | API |  % |
 |------|--------:|----:|---:|
-| [T](#api-33) | 13 | 33 | 22.1% |
-| [S](#api-31) | 12 | 31 | 15.8% |
-| [R](#api-30) | 11 | 30 | 21.6% |
-| [Q](#api-29) | 10 | 29 | 16.1% |
-| [Pie](#api-28) | 9 | 28 | 10.5% |
-| [Oreo](#api-27) | 8.1 | 27 | 5.4% |
-| [Oreo](#api-26) | 8 | 26 | 1.9% |
-| [Nougat](#api-25) | 7.1 | 25 | 1.3% |
-| [Nougat](#api-24) | 7 | 24 | 1.3% |
-| [Marshmallow](#api-23) | 6 | 23 | 1.9% |
-| [Lollipop](#api-22) | 5.1 | 22 | 1.2% |
-| [Lollipop](#api-21) | 5 | 21 | 0.2% |
-| [KitKat](#api-19) | 4.4 | 19 | 0.4% |
+| [U](#api-34) | 14 | 34 | 13% |
+| [T](#api-33) | 13 | 33 | 20.9% |
+| [S](#api-31) | 12 | 31 | 14.7% |
+| [R](#api-30) | 11 | 30 | 19% |
+| [Q](#api-29) | 10 | 29 | 13.6% |
+| [Pie](#api-28) | 9 | 28 | 8.4% |
+| [Oreo](#api-27) | 8.1 | 27 | 4.3% |
+| [Oreo](#api-26) | 8 | 26 | 1.5% |
+| [Nougat](#api-25) | 7.1 | 25 | 1% |
+| [Nougat](#api-24) | 7 | 24 | 1% |
+| [Marshmallow](#api-23) | 6 | 23 | 1.4% |
+| [Lollipop](#api-22) | 5.1 | 22 | 0.8% |
+| [Lollipop](#api-21) | 5 | 21 | 0.1% |
+| [KitKat](#api-19) | 4.4 | 19 | 0.3% |
 
 ---
 
 ```mermaid
 pie
-    "T (13)" : 22.1
-    "R (11)" : 21.6
-    "Q (10)" : 16.1
-    "S (12)" : 15.8
-    "Pie (9)" : 10.5
-    "Oreo (8.1)" : 5.4
-    "Oreo (8)" : 1.9
-    "Marshmallow (6)" : 1.9
-    "Nougat (7.1)" : 1.3
-    "Nougat (7)" : 1.3
-    "Lollipop (5.1)" : 1.2
-    "KitKat (4.4)" : 0.4
-    "Lollipop (5)" : 0.2
+    "T (13)" : 20.9
+    "R (11)" : 19
+    "S (12)" : 14.7
+    "Q (10)" : 13.6
+    "U (14)" : 13
+    "Pie (9)" : 8.4
+    "Oreo (8.1)" : 4.3
+    "Oreo (8)" : 1.5
+    "Marshmallow (6)" : 1.4
+    "Nougat (7.1)" : 1
+    "Nougat (7)" : 1
+    "Lollipop (5.1)" : 0.8
+    "KitKat (4.4)" : 0.3
+    "Lollipop (5)" : 0.1
 ```
 
 ---
+
+<a id="api-34"></a>
+##### [U](https://developer.android.com/about/versions/14)
+
+###### New features
+
+> Ultra HDR for images<br>Zoom, Focus, Postview, and more in camera extensions<br>Lossless USB audio<br>Health Connect<br>Add custom actions<br>Custom meshes with vertex and fragment shaders
+
+###### Behavior changes
+
+> Foreground service types are required<br>Enforcement of BLUETOOTH_CONNECT permission<br>JobScheduler reinforces callback and network behavior<br>Apps can kill only their own background processes<br>Schedule exact alarms are denied by default<br>Data safety information is more visible<br>Minimum installable target API level
+
+###### Security and privacy
+
+> Credential Manager<br>Improvements for app stores<br>Detect when users take device screenshots<br>Secure full-screen Intent notifications<br>Restrictions to implicit and pending intents<br>Safer dynamic code loading<br>restrictions on starting activities from the background<br>User consent required for each MediaProjection
+
+> [!NOTE]  
+> Last updated: May 1, 2024
 
 <a id="api-33"></a>
 ##### [T](https://developer.android.com/about/versions/13)
@@ -53,7 +73,7 @@ pie
 > Safer exporting of context-registered receivers<br>Enhanced photo picker privacy<br>New runtime permission for nearby Wi-Fi devices<br>Exact alarms permission<br>Developer downgradable permissions<br>APK Signature Scheme v3.1<br>Better error reporting in Keystore and KeyMint
 
 > [!NOTE]  
-> Last updated: October 1, 2023
+> Last updated: May 1, 2024
 
 <a id="api-31"></a>
 ##### [S](https://developer.android.com/about/versions/12)
@@ -75,7 +95,7 @@ pie
 > System UI optimizations<br>App taskbar<br>Drag and drop an app into split-screen mode<br>fast app-switching<br>Visual and stability improvements to compatibility mode<br>Activity embedding with Jetpack WindowManager
 
 > [!NOTE]  
-> Last updated: October 1, 2023
+> Last updated: May 1, 2024
 
 <a id="api-30"></a>
 ##### [R](https://developer.android.com/about/versions/11)
@@ -93,7 +113,7 @@ pie
 > Scoped storage enforcement<br>One-time permissions<br>Permissions auto-reset<br>Background location access<br>Package visibility<br>Foreground services<br>Secure sharing of large datasets
 
 > [!NOTE]  
-> Last updated: October 1, 2023
+> Last updated: May 1, 2024
 
 <a id="api-29"></a>
 ##### [Q](https://developer.android.com/about/versions/10)
@@ -115,7 +135,7 @@ pie
 > New location permissions<br>Storage encryption<br>TLS 1.3 by default<br>Platform hardening<br>Improved biometrics
 
 > [!NOTE]  
-> Last updated: October 1, 2023
+> Last updated: May 1, 2024
 
 <a id="api-28"></a>
 ##### [Pie](https://developer.android.com/about/versions/pie/android-9.0)
@@ -141,7 +161,7 @@ pie
 > Navigation semantics<br>Convenience actions<br>Magnifier
 
 > [!NOTE]  
-> Last updated: October 1, 2023
+> Last updated: May 1, 2024
 
 <a id="api-27"></a>
 ##### [Oreo](https://developer.android.com/about/versions/oreo/android-8.1)
@@ -163,7 +183,7 @@ pie
 > Fingerprint updates<br>Cryptography updates
 
 > [!NOTE]  
-> Last updated: October 1, 2023
+> Last updated: May 1, 2024
 
 <a id="api-26"></a>
 ##### [Oreo](https://developer.android.com/about/versions/oreo/android-8.0)
@@ -193,7 +213,7 @@ pie
 > Platform optimizations<br>Updated Java language support<br>Updated ICU4J Android Framework APIs
 
 > [!NOTE]  
-> Last updated: October 1, 2023
+> Last updated: May 1, 2024
 
 <a id="api-25"></a>
 ##### [Nougat](https://developer.android.com/about/versions/nougat/android-7.1.html)
@@ -223,7 +243,7 @@ pie
 > New Screen Densities for Wear Devices
 
 > [!NOTE]  
-> Last updated: October 1, 2023
+> Last updated: May 1, 2024
 
 <a id="api-24"></a>
 ##### [Nougat](https://developer.android.com/about/versions/nougat/android-7.0.html)
@@ -273,7 +293,7 @@ pie
 > Print service enhancements
 
 > [!NOTE]  
-> Last updated: October 1, 2023
+> Last updated: May 1, 2024
 
 <a id="api-23"></a>
 ##### [Marshmallow](https://developer.android.com/about/versions/marshmallow/android-6.0.html)
@@ -307,7 +327,7 @@ pie
 > Controls for Corporate-Owned, Single-Use devices<br>Silent install and uninstall of apps by Device Owner<br>Silent enterprise certificate access<br>Auto-acceptance of system updates<br>Delegated certificate installation<br>Data usage tracking<br>Runtime permission management<br>Work status notification
 
 > [!NOTE]  
-> Last updated: October 1, 2023
+> Last updated: May 1, 2024
 
 <a id="api-22"></a>
 ##### [Lollipop](https://developer.android.com/about/versions/android-5.1.html)
@@ -321,7 +341,7 @@ pie
 > Deprecated HTTP Classes
 
 > [!NOTE]  
-> Last updated: October 1, 2023
+> Last updated: May 1, 2024
 
 <a id="api-21"></a>
 ##### [Lollipop](https://developer.android.com/about/versions/android-5.0.html)
@@ -379,7 +399,7 @@ pie
 > Declarable required features<br>User permissions
 
 > [!NOTE]  
-> Last updated: October 1, 2023
+> Last updated: May 1, 2024
 
 <a id="api-19"></a>
 ##### [KitKat](https://developer.android.com/about/versions/android-4.4.html)
@@ -417,5 +437,5 @@ pie
 > Immersive full-screen mode<br>Translucent system bars<br>Enhanced notification listener<br>Live regions for accessibility
 
 > [!NOTE]  
-> Last updated: October 1, 2023
+> Last updated: May 1, 2024
 
