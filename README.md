@@ -2,42 +2,86 @@
 
 | Name | Version | API |  % |
 |------|--------:|----:|---:|
-| [U](#api-34) | 14 | 34 | 13% |
-| [T](#api-33) | 13 | 33 | 20.9% |
-| [S](#api-31) | 12 | 31 | 14.7% |
-| [R](#api-30) | 11 | 30 | 19% |
-| [Q](#api-29) | 10 | 29 | 13.6% |
-| [Pie](#api-28) | 9 | 28 | 8.4% |
-| [Oreo](#api-27) | 8.1 | 27 | 4.3% |
-| [Oreo](#api-26) | 8 | 26 | 1.5% |
-| [Nougat](#api-25) | 7.1 | 25 | 1% |
-| [Nougat](#api-24) | 7 | 24 | 1% |
-| [Marshmallow](#api-23) | 6 | 23 | 1.4% |
-| [Lollipop](#api-22) | 5.1 | 22 | 0.8% |
+| [V](#api-35) | 15 | 35 | 4.4% |
+| [U](#api-34) | 14 | 34 | 27.4% |
+| [T](#api-33) | 13 | 33 | 16.8% |
+| [S](#api-31) | 12 | 31 | 12.8% |
+| [R](#api-30) | 11 | 30 | 15.9% |
+| [Q](#api-29) | 10 | 29 | 10.2% |
+| [Pie](#api-28) | 9 | 28 | 5.8% |
+| [Oreo](#api-27) | 8.1 | 27 | 3% |
+| [Oreo](#api-26) | 8 | 26 | 1% |
+| [Nougat](#api-25) | 7.1 | 25 | 0.6% |
+| [Nougat](#api-24) | 7 | 24 | 0.6% |
+| [Marshmallow](#api-23) | 6 | 23 | 0.7% |
+| [Lollipop](#api-22) | 5.1 | 22 | 0.5% |
 | [Lollipop](#api-21) | 5 | 21 | 0.1% |
-| [KitKat](#api-19) | 4.4 | 19 | 0.3% |
+| [KitKat](#api-19) | 4.4 | 19 | 0.1% |
 
 ---
 
 ```mermaid
 pie
-    "T (13)" : 20.9
-    "R (11)" : 19
-    "S (12)" : 14.7
-    "Q (10)" : 13.6
-    "U (14)" : 13
-    "Pie (9)" : 8.4
-    "Oreo (8.1)" : 4.3
-    "Oreo (8)" : 1.5
-    "Marshmallow (6)" : 1.4
-    "Nougat (7.1)" : 1
-    "Nougat (7)" : 1
-    "Lollipop (5.1)" : 0.8
-    "KitKat (4.4)" : 0.3
+    "U (14)" : 27.4
+    "T (13)" : 16.8
+    "R (11)" : 15.9
+    "S (12)" : 12.8
+    "Q (10)" : 10.2
+    "Pie (9)" : 5.8
+    "V (15)" : 4.4
+    "Oreo (8.1)" : 3
+    "Oreo (8)" : 1
+    "Marshmallow (6)" : 0.7
+    "Nougat (7.1)" : 0.6
+    "Nougat (7)" : 0.6
+    "Lollipop (5.1)" : 0.5
     "Lollipop (5)" : 0.1
+    "KitKat (4.4)" : 0.1
 ```
 
 ---
+
+<a id="api-35"></a>
+##### [V](https://developer.android.com/about/versions/15)
+
+###### Camera and media
+
+> Low Light Boost<br>In-app Camera Controls<br>HDR headroom control<br>Loudness control<br>Virtual MIDI 2.0 Devices<br>More efficient AV1 software decoding
+
+###### Connectivity
+
+> Satellite support<br>Smoother NFC experiences<br>Wallet role
+
+###### Developer productivity and tools
+
+> OpenJDK 17 updates<br>PDF improvements<br>Automatic language switching refinements<br>Improved OpenType Variable Font API<br>Granular line break controls<br>App archiving
+
+###### Graphics
+
+> Modernizing Android's GPU access<br>Improvements for Canvas
+
+###### Large screens and form factors
+
+> Improved large screen multitasking<br>Cover screen support
+
+###### Performance and battery
+
+> ApplicationStartInfo API<br>Detailed app size information<br>App-managed profiling<br>SQLite database improvements<br>Android Dynamic Performance Framework updates
+
+###### Privacy
+
+> Screen recording detection<br>Expanded IntentFilter capabilities<br>Private space<br>Query most-recent user selection for Selected Photos Access<br>Privacy Sandbox on Android<br>Health Connect<br>Partial screen sharing
+
+###### Security
+
+> Integrate Credential Manager with autofill<br>Integrate single tap sign-up and sign-in with biometric prompts<br>Key management for end-to-end encryption<br>Permission checks on content URIs
+
+###### User experience and system UI
+
+> Richer widget previews with Generated Previews API<br>Picture-in-picture improvements<br>Improved Do Not Disturb rules<br>Set VibrationEffect for notification channels<br>Media projection status bar chip and auto stop
+
+> [!NOTE]  
+> Last updated: April 1, 2025
 
 <a id="api-34"></a>
 ##### [U](https://developer.android.com/about/versions/14)
@@ -55,7 +99,7 @@ pie
 > Credential Manager<br>Improvements for app stores<br>Detect when users take device screenshots<br>Secure full-screen Intent notifications<br>Restrictions to implicit and pending intents<br>Safer dynamic code loading<br>restrictions on starting activities from the background<br>User consent required for each MediaProjection
 
 > [!NOTE]  
-> Last updated: May 1, 2024
+> Last updated: April 1, 2025
 
 <a id="api-33"></a>
 ##### [T](https://developer.android.com/about/versions/13)
@@ -73,7 +117,7 @@ pie
 > Safer exporting of context-registered receivers<br>Enhanced photo picker privacy<br>New runtime permission for nearby Wi-Fi devices<br>Exact alarms permission<br>Developer downgradable permissions<br>APK Signature Scheme v3.1<br>Better error reporting in Keystore and KeyMint
 
 > [!NOTE]  
-> Last updated: May 1, 2024
+> Last updated: April 1, 2025
 
 <a id="api-31"></a>
 ##### [S](https://developer.android.com/about/versions/12)
@@ -95,7 +139,7 @@ pie
 > System UI optimizations<br>App taskbar<br>Drag and drop an app into split-screen mode<br>fast app-switching<br>Visual and stability improvements to compatibility mode<br>Activity embedding with Jetpack WindowManager
 
 > [!NOTE]  
-> Last updated: May 1, 2024
+> Last updated: April 1, 2025
 
 <a id="api-30"></a>
 ##### [R](https://developer.android.com/about/versions/11)
@@ -113,7 +157,7 @@ pie
 > Scoped storage enforcement<br>One-time permissions<br>Permissions auto-reset<br>Background location access<br>Package visibility<br>Foreground services<br>Secure sharing of large datasets
 
 > [!NOTE]  
-> Last updated: May 1, 2024
+> Last updated: April 1, 2025
 
 <a id="api-29"></a>
 ##### [Q](https://developer.android.com/about/versions/10)
@@ -135,7 +179,7 @@ pie
 > New location permissions<br>Storage encryption<br>TLS 1.3 by default<br>Platform hardening<br>Improved biometrics
 
 > [!NOTE]  
-> Last updated: May 1, 2024
+> Last updated: April 1, 2025
 
 <a id="api-28"></a>
 ##### [Pie](https://developer.android.com/about/versions/pie/android-9.0)
@@ -161,7 +205,7 @@ pie
 > Navigation semantics<br>Convenience actions<br>Magnifier
 
 > [!NOTE]  
-> Last updated: May 1, 2024
+> Last updated: April 1, 2025
 
 <a id="api-27"></a>
 ##### [Oreo](https://developer.android.com/about/versions/oreo/android-8.1)
@@ -183,7 +227,7 @@ pie
 > Fingerprint updates<br>Cryptography updates
 
 > [!NOTE]  
-> Last updated: May 1, 2024
+> Last updated: April 1, 2025
 
 <a id="api-26"></a>
 ##### [Oreo](https://developer.android.com/about/versions/oreo/android-8.0)
@@ -213,7 +257,7 @@ pie
 > Platform optimizations<br>Updated Java language support<br>Updated ICU4J Android Framework APIs
 
 > [!NOTE]  
-> Last updated: May 1, 2024
+> Last updated: April 1, 2025
 
 <a id="api-25"></a>
 ##### [Nougat](https://developer.android.com/about/versions/nougat/android-7.1.html)
@@ -243,7 +287,7 @@ pie
 > New Screen Densities for Wear Devices
 
 > [!NOTE]  
-> Last updated: May 1, 2024
+> Last updated: April 1, 2025
 
 <a id="api-24"></a>
 ##### [Nougat](https://developer.android.com/about/versions/nougat/android-7.0.html)
@@ -293,7 +337,7 @@ pie
 > Print service enhancements
 
 > [!NOTE]  
-> Last updated: May 1, 2024
+> Last updated: April 1, 2025
 
 <a id="api-23"></a>
 ##### [Marshmallow](https://developer.android.com/about/versions/marshmallow/android-6.0.html)
@@ -327,7 +371,7 @@ pie
 > Controls for Corporate-Owned, Single-Use devices<br>Silent install and uninstall of apps by Device Owner<br>Silent enterprise certificate access<br>Auto-acceptance of system updates<br>Delegated certificate installation<br>Data usage tracking<br>Runtime permission management<br>Work status notification
 
 > [!NOTE]  
-> Last updated: May 1, 2024
+> Last updated: April 1, 2025
 
 <a id="api-22"></a>
 ##### [Lollipop](https://developer.android.com/about/versions/android-5.1.html)
@@ -341,7 +385,7 @@ pie
 > Deprecated HTTP Classes
 
 > [!NOTE]  
-> Last updated: May 1, 2024
+> Last updated: April 1, 2025
 
 <a id="api-21"></a>
 ##### [Lollipop](https://developer.android.com/about/versions/android-5.0.html)
@@ -399,7 +443,7 @@ pie
 > Declarable required features<br>User permissions
 
 > [!NOTE]  
-> Last updated: May 1, 2024
+> Last updated: April 1, 2025
 
 <a id="api-19"></a>
 ##### [KitKat](https://developer.android.com/about/versions/android-4.4.html)
@@ -437,5 +481,5 @@ pie
 > Immersive full-screen mode<br>Translucent system bars<br>Enhanced notification listener<br>Live regions for accessibility
 
 > [!NOTE]  
-> Last updated: May 1, 2024
+> Last updated: April 1, 2025
 
