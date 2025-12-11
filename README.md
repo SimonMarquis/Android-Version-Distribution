@@ -2,44 +2,90 @@
 
 | Name | Version | API |  % |
 |------|--------:|----:|---:|
-| [V](#api-35) | 15 | 35 | 4.4% |
-| [U](#api-34) | 14 | 34 | 27.4% |
-| [T](#api-33) | 13 | 33 | 16.8% |
-| [S](#api-31) | 12 | 31 | 12.8% |
-| [R](#api-30) | 11 | 30 | 15.9% |
-| [Q](#api-29) | 10 | 29 | 10.2% |
-| [Pie](#api-28) | 9 | 28 | 5.8% |
-| [Oreo](#api-27) | 8.1 | 27 | 3% |
-| [Oreo](#api-26) | 8 | 26 | 1% |
-| [Nougat](#api-25) | 7.1 | 25 | 0.6% |
-| [Nougat](#api-24) | 7 | 24 | 0.6% |
-| [Marshmallow](#api-23) | 6 | 23 | 0.7% |
-| [Lollipop](#api-22) | 5.1 | 22 | 0.5% |
+| [B](#api-36) | 16 | 36 | 7.4% |
+| [V](#api-35) | 15 | 35 | 19.3% |
+| [U](#api-34) | 14 | 34 | 17.2% |
+| [T](#api-33) | 13 | 33 | 13.9% |
+| [S](#api-31) | 12 | 31 | 11.4% |
+| [R](#api-30) | 11 | 30 | 13.7% |
+| [Q](#api-29) | 10 | 29 | 7.8% |
+| [Pie](#api-28) | 9 | 28 | 4.5% |
+| [Oreo](#api-27) | 8.1 | 27 | 2.3% |
+| [Oreo](#api-26) | 8 | 26 | 0.8% |
+| [Nougat](#api-25) | 7.1 | 25 | 0.4% |
+| [Nougat](#api-24) | 7 | 24 | 0.4% |
+| [Marshmallow](#api-23) | 6 | 23 | 0.4% |
+| [Lollipop](#api-22) | 5.1 | 22 | 0.3% |
 | [Lollipop](#api-21) | 5 | 21 | 0.1% |
-| [KitKat](#api-19) | 4.4 | 19 | 0.1% |
 
 ---
 
 ```mermaid
 pie
-    "U (14)" : 27.4
-    "T (13)" : 16.8
-    "R (11)" : 15.9
-    "S (12)" : 12.8
-    "Q (10)" : 10.2
-    "Pie (9)" : 5.8
-    "V (15)" : 4.4
-    "Oreo (8.1)" : 3
-    "Oreo (8)" : 1
-    "Marshmallow (6)" : 0.7
-    "Nougat (7.1)" : 0.6
-    "Nougat (7)" : 0.6
-    "Lollipop (5.1)" : 0.5
+    "V (15)" : 19.3
+    "U (14)" : 17.2
+    "T (13)" : 13.9
+    "R (11)" : 13.7
+    "S (12)" : 11.4
+    "Q (10)" : 7.8
+    "B (16)" : 7.4
+    "Pie (9)" : 4.5
+    "Oreo (8.1)" : 2.3
+    "Oreo (8)" : 0.8
+    "Nougat (7.1)" : 0.4
+    "Nougat (7)" : 0.4
+    "Marshmallow (6)" : 0.4
+    "Lollipop (5.1)" : 0.3
     "Lollipop (5)" : 0.1
-    "KitKat (4.4)" : 0.1
 ```
 
 ---
+
+<a id="api-36"></a>
+##### [B](https://developer.android.com/about/versions/16/summary)
+
+###### User Experience and System UI
+
+> Progress-centric notifications<br>Richer haptics APIs<br>Predictive back updates and default migration/opt-out requirement (targeting 16+)<br>Automatic themed app icons<br>Edge to edge opt-out removed (targeting 16+)<br>Deprecating disruptive accessibility announcements<br>Content handling for live wallpapers
+
+###### Security and Privacy
+
+> Improved security against Intent redirection attacks<br>Key sharing API for Android Keystore<br>Privacy Sandbox on Android updates<br>MediaStore version lockdown (targeting 16+)<br>Safer Intent resolution mechanism (targeting 16+)<br>GPU syscall filtering (targeting 16+)
+
+###### Camera and Media
+
+> UltraHDR image enhancements (HEIC)<br>Precise color temperature and tint adjustments<br>Hybrid auto-exposure modes<br>Motion photo capture Intent actions<br>Camera night mode scene detection (EXTENSION_NIGHT_MODE_INDICATOR)<br>Photo picker improvements (embeddable, cloud search)
+
+###### Core Functionality
+
+> ART internal changes and performance updates<br>JobScheduler quota optimizations and new abandoned job reason (STOP_REASON_TIMEOUT_ABANDONED)<br>16 KB page size compatibility mode<br>Ordered broadcast priority scope limited to same process<br>Fixed rate work scheduling optimization (targeting 16+)
+
+###### Connectivity
+
+> Generic ranging APIs (RangingManager)<br>Ranging with enhanced security (Wi-Fi 6 802.11az)<br>Companion device manager device presence APIs<br>Improved Bluetooth bond loss handling and new intents/APIs for targeting 16+
+
+###### Accessibility
+
+> Improved accessibility APIs<br>Phone as microphone input for voice calls with LEA hearing aids<br>Ambient volume controls for LEA hearing aids
+
+###### Graphics
+
+> Custom graphical effects with AGSL (RuntimeColorFilter, RuntimeXfermode)
+
+###### Internationalization
+
+> Vertical text rendering support<br>Measurement system customization in regional preferences
+
+###### Device Form Factors
+
+> Standardized picture and audio quality framework for TVs (MediaQuality package)<br>Virtual device owner overrides<br>Adaptive layouts (platform ignores screen orientation/aspect ratio restrictions for targeting 16+)
+
+###### Health and Fitness
+
+> Transition to granular health and fitness permissions (`android.permissions.health` for Health Connect) (targeting 16+)
+
+> [!NOTE]  
+> Last updated: December 1, 2025
 
 <a id="api-35"></a>
 ##### [V](https://developer.android.com/about/versions/15)
@@ -81,7 +127,7 @@ pie
 > Richer widget previews with Generated Previews API<br>Picture-in-picture improvements<br>Improved Do Not Disturb rules<br>Set VibrationEffect for notification channels<br>Media projection status bar chip and auto stop
 
 > [!NOTE]  
-> Last updated: April 1, 2025
+> Last updated: December 1, 2025
 
 <a id="api-34"></a>
 ##### [U](https://developer.android.com/about/versions/14)
@@ -99,7 +145,7 @@ pie
 > Credential Manager<br>Improvements for app stores<br>Detect when users take device screenshots<br>Secure full-screen Intent notifications<br>Restrictions to implicit and pending intents<br>Safer dynamic code loading<br>restrictions on starting activities from the background<br>User consent required for each MediaProjection
 
 > [!NOTE]  
-> Last updated: April 1, 2025
+> Last updated: December 1, 2025
 
 <a id="api-33"></a>
 ##### [T](https://developer.android.com/about/versions/13)
@@ -117,7 +163,7 @@ pie
 > Safer exporting of context-registered receivers<br>Enhanced photo picker privacy<br>New runtime permission for nearby Wi-Fi devices<br>Exact alarms permission<br>Developer downgradable permissions<br>APK Signature Scheme v3.1<br>Better error reporting in Keystore and KeyMint
 
 > [!NOTE]  
-> Last updated: April 1, 2025
+> Last updated: December 1, 2025
 
 <a id="api-31"></a>
 ##### [S](https://developer.android.com/about/versions/12)
@@ -139,7 +185,7 @@ pie
 > System UI optimizations<br>App taskbar<br>Drag and drop an app into split-screen mode<br>fast app-switching<br>Visual and stability improvements to compatibility mode<br>Activity embedding with Jetpack WindowManager
 
 > [!NOTE]  
-> Last updated: April 1, 2025
+> Last updated: December 1, 2025
 
 <a id="api-30"></a>
 ##### [R](https://developer.android.com/about/versions/11)
@@ -157,7 +203,7 @@ pie
 > Scoped storage enforcement<br>One-time permissions<br>Permissions auto-reset<br>Background location access<br>Package visibility<br>Foreground services<br>Secure sharing of large datasets
 
 > [!NOTE]  
-> Last updated: April 1, 2025
+> Last updated: December 1, 2025
 
 <a id="api-29"></a>
 ##### [Q](https://developer.android.com/about/versions/10)
@@ -179,7 +225,7 @@ pie
 > New location permissions<br>Storage encryption<br>TLS 1.3 by default<br>Platform hardening<br>Improved biometrics
 
 > [!NOTE]  
-> Last updated: April 1, 2025
+> Last updated: December 1, 2025
 
 <a id="api-28"></a>
 ##### [Pie](https://developer.android.com/about/versions/pie/android-9.0)
@@ -205,7 +251,7 @@ pie
 > Navigation semantics<br>Convenience actions<br>Magnifier
 
 > [!NOTE]  
-> Last updated: April 1, 2025
+> Last updated: December 1, 2025
 
 <a id="api-27"></a>
 ##### [Oreo](https://developer.android.com/about/versions/oreo/android-8.1)
@@ -227,7 +273,7 @@ pie
 > Fingerprint updates<br>Cryptography updates
 
 > [!NOTE]  
-> Last updated: April 1, 2025
+> Last updated: December 1, 2025
 
 <a id="api-26"></a>
 ##### [Oreo](https://developer.android.com/about/versions/oreo/android-8.0)
@@ -257,7 +303,7 @@ pie
 > Platform optimizations<br>Updated Java language support<br>Updated ICU4J Android Framework APIs
 
 > [!NOTE]  
-> Last updated: April 1, 2025
+> Last updated: December 1, 2025
 
 <a id="api-25"></a>
 ##### [Nougat](https://developer.android.com/about/versions/nougat/android-7.1.html)
@@ -287,7 +333,7 @@ pie
 > New Screen Densities for Wear Devices
 
 > [!NOTE]  
-> Last updated: April 1, 2025
+> Last updated: December 1, 2025
 
 <a id="api-24"></a>
 ##### [Nougat](https://developer.android.com/about/versions/nougat/android-7.0.html)
@@ -337,7 +383,7 @@ pie
 > Print service enhancements
 
 > [!NOTE]  
-> Last updated: April 1, 2025
+> Last updated: December 1, 2025
 
 <a id="api-23"></a>
 ##### [Marshmallow](https://developer.android.com/about/versions/marshmallow/android-6.0.html)
@@ -371,7 +417,7 @@ pie
 > Controls for Corporate-Owned, Single-Use devices<br>Silent install and uninstall of apps by Device Owner<br>Silent enterprise certificate access<br>Auto-acceptance of system updates<br>Delegated certificate installation<br>Data usage tracking<br>Runtime permission management<br>Work status notification
 
 > [!NOTE]  
-> Last updated: April 1, 2025
+> Last updated: December 1, 2025
 
 <a id="api-22"></a>
 ##### [Lollipop](https://developer.android.com/about/versions/android-5.1.html)
@@ -385,7 +431,7 @@ pie
 > Deprecated HTTP Classes
 
 > [!NOTE]  
-> Last updated: April 1, 2025
+> Last updated: December 1, 2025
 
 <a id="api-21"></a>
 ##### [Lollipop](https://developer.android.com/about/versions/android-5.0.html)
@@ -443,43 +489,5 @@ pie
 > Declarable required features<br>User permissions
 
 > [!NOTE]  
-> Last updated: April 1, 2025
-
-<a id="api-19"></a>
-##### [KitKat](https://developer.android.com/about/versions/android-4.4.html)
-
-###### Printing Framework
-
-> Print generic content<br>Print images<br>OEM print services
-
-###### SMS Provider
-
-> Read and write SMS and MMS messages<br>Select default SMS app
-
-###### Wireless and Connectivity
-
-> Host NFC card emulation<br>NFC reader mode<br>Infrared support
-
-###### Multimedia
-
-> Adaptive video playback<br>On-demand audio timestamps<br>Surface image reader<br>Peak and RMS audio measurements<br>Loudness enhancer<br>Remote controllers<br>Closed captions
-
-###### Animation and Graphics
-
-> Scenes and transitions<br>Animator pausing<br>Reusable bitmaps
-
-###### User Content
-
-> Storage access framework<br>External storage access<br>Sync adapters
-
-###### User Input
-
-> New sensor types, including step detector<br>Batched sensor events<br>Controller identities
-
-###### User Interface
-
-> Immersive full-screen mode<br>Translucent system bars<br>Enhanced notification listener<br>Live regions for accessibility
-
-> [!NOTE]  
-> Last updated: April 1, 2025
+> Last updated: December 1, 2025
 
