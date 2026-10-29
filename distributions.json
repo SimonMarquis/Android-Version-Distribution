@@ -1,74 +1,9 @@
 [
   {
     "name": "Lollipop",
-    "version": "5",
-    "apiLevel": 21,
-    "distributionPercentage": 0.001,
-    "url": "https://developer.android.com/about/versions/android-5.0.html",
-    "descriptionBlocks": [
-      {
-        "title": "User Interface",
-        "body": "Material design support<br>Concurrent documents and activities in the recents screen<br>WebView updates<br>Screen capturing and sharing"
-      },
-      {
-        "title": "Notifications",
-        "body": "Lock screen notifications<br>Notifications metadata"
-      },
-      {
-        "title": "Graphics",
-        "body": "Support for OpenGL ES 3.1<br>Android Extension Pack"
-      },
-      {
-        "title": "Media",
-        "body": "Camera API for advanced camera capabilities<br>Audio playback<br>Media playback control<br>Media browsing"
-      },
-      {
-        "title": "Storage",
-        "body": "Directory selection"
-      },
-      {
-        "title": "Wireless & Connectivity",
-        "body": "Multiple network connections<br>Bluetooth Low Energy<br>NFC enhancements"
-      },
-      {
-        "title": "Battery - Project Volta",
-        "body": "Scheduling jobs<br>Developer tools for battery usage"
-      },
-      {
-        "title": "Android in the Workplace and in Education",
-        "body": "Managed provisioning<br>Device owner<br>Screen pinning"
-      },
-      {
-        "title": "Printing Framework",
-        "body": "Render PDF as bitmap"
-      },
-      {
-        "title": "System",
-        "body": "App usage statistics"
-      },
-      {
-        "title": "Testing & Accessibility",
-        "body": "Testing and accessibility improvements"
-      },
-      {
-        "title": "IME",
-        "body": "Easier switching between input languages"
-      },
-      {
-        "title": "Manifest Declarations",
-        "body": "Declarable required features<br>User permissions"
-      },
-      {
-        "title": "",
-        "body": "Last updated: December 1, 2025"
-      }
-    ]
-  },
-  {
-    "name": "Lollipop",
     "version": "5.1",
     "apiLevel": 22,
-    "distributionPercentage": 0.003,
+    "distributionPercentage": 0.002,
     "url": "https://developer.android.com/about/versions/android-5.1.html",
     "descriptionBlocks": [
       {
@@ -81,7 +16,7 @@
       },
       {
         "title": "",
-        "body": "Last updated: December 1, 2025"
+        "body": "Last updated: October 1, 2026"
       }
     ]
   },
@@ -89,7 +24,7 @@
     "name": "Marshmallow",
     "version": "6",
     "apiLevel": 23,
-    "distributionPercentage": 0.004,
+    "distributionPercentage": 0.003,
     "url": "https://developer.android.com/about/versions/marshmallow/android-6.0.html",
     "descriptionBlocks": [
       {
@@ -122,7 +57,7 @@
       },
       {
         "title": "",
-        "body": "Last updated: December 1, 2025"
+        "body": "Last updated: October 1, 2026"
       }
     ]
   },
@@ -130,7 +65,7 @@
     "name": "Nougat",
     "version": "7",
     "apiLevel": 24,
-    "distributionPercentage": 0.004,
+    "distributionPercentage": 0.002,
     "url": "https://developer.android.com/about/versions/nougat/android-7.0.html",
     "descriptionBlocks": [
       {
@@ -179,7 +114,7 @@
       },
       {
         "title": "",
-        "body": "Last updated: December 1, 2025"
+        "body": "Last updated: October 1, 2026"
       }
     ]
   },
@@ -187,7 +122,7 @@
     "name": "Nougat",
     "version": "7.1",
     "apiLevel": 25,
-    "distributionPercentage": 0.004,
+    "distributionPercentage": 0.002,
     "url": "https://developer.android.com/about/versions/nougat/android-7.1.html",
     "descriptionBlocks": [
       {
@@ -216,7 +151,7 @@
       },
       {
         "title": "",
-        "body": "Last updated: December 1, 2025"
+        "body": "Last updated: October 1, 2026"
       }
     ]
   },
@@ -224,7 +159,7 @@
     "name": "Oreo",
     "version": "8",
     "apiLevel": 26,
-    "distributionPercentage": 0.008,
+    "distributionPercentage": 0.005,
     "url": "https://developer.android.com/about/versions/oreo/android-8.0",
     "descriptionBlocks": [
       {
@@ -253,7 +188,7 @@
       },
       {
         "title": "",
-        "body": "Last updated: December 1, 2025"
+        "body": "Last updated: October 1, 2026"
       }
     ]
   },
@@ -261,7 +196,7 @@
     "name": "Oreo",
     "version": "8.1",
     "apiLevel": 27,
-    "distributionPercentage": 0.023,
+    "distributionPercentage": 0.015,
     "url": "https://developer.android.com/about/versions/oreo/android-8.1",
     "descriptionBlocks": [
       {
@@ -282,7 +217,7 @@
       },
       {
         "title": "",
-        "body": "Last updated: December 1, 2025"
+        "body": "Last updated: October 1, 2026"
       }
     ]
   },
@@ -290,7 +225,7 @@
     "name": "Pie",
     "version": "9",
     "apiLevel": 28,
-    "distributionPercentage": 0.045,
+    "distributionPercentage": 0.031,
     "url": "https://developer.android.com/about/versions/pie/android-9.0",
     "descriptionBlocks": [
       {
@@ -315,7 +250,7 @@
       },
       {
         "title": "",
-        "body": "Last updated: December 1, 2025"
+        "body": "Last updated: October 1, 2026"
       }
     ]
   },
@@ -323,7 +258,7 @@
     "name": "Q",
     "version": "10",
     "apiLevel": 29,
-    "distributionPercentage": 0.078,
+    "distributionPercentage": 0.057,
     "url": "https://developer.android.com/about/versions/10",
     "descriptionBlocks": [
       {
@@ -344,7 +279,7 @@
       },
       {
         "title": "",
-        "body": "Last updated: December 1, 2025"
+        "body": "Last updated: October 1, 2026"
       }
     ]
   },
@@ -352,7 +287,7 @@
     "name": "R",
     "version": "11",
     "apiLevel": 30,
-    "distributionPercentage": 0.137,
+    "distributionPercentage": 0.105,
     "url": "https://developer.android.com/about/versions/11",
     "descriptionBlocks": [
       {
@@ -369,7 +304,7 @@
       },
       {
         "title": "",
-        "body": "Last updated: December 1, 2025"
+        "body": "Last updated: October 1, 2026"
       }
     ]
   },
@@ -377,7 +312,7 @@
     "name": "S",
     "version": "12",
     "apiLevel": 31,
-    "distributionPercentage": 0.114,
+    "distributionPercentage": 0.096,
     "url": "https://developer.android.com/about/versions/12",
     "descriptionBlocks": [
       {
@@ -398,7 +333,7 @@
       },
       {
         "title": "",
-        "body": "Last updated: December 1, 2025"
+        "body": "Last updated: October 1, 2026"
       }
     ]
   },
@@ -406,7 +341,7 @@
     "name": "T",
     "version": "13",
     "apiLevel": 33,
-    "distributionPercentage": 0.139,
+    "distributionPercentage": 0.118,
     "url": "https://developer.android.com/about/versions/13",
     "descriptionBlocks": [
       {
@@ -423,7 +358,7 @@
       },
       {
         "title": "",
-        "body": "Last updated: December 1, 2025"
+        "body": "Last updated: October 1, 2026"
       }
     ]
   },
@@ -431,7 +366,7 @@
     "name": "U",
     "version": "14",
     "apiLevel": 34,
-    "distributionPercentage": 0.172,
+    "distributionPercentage": 0.153,
     "url": "https://developer.android.com/about/versions/14",
     "descriptionBlocks": [
       {
@@ -448,7 +383,7 @@
       },
       {
         "title": "",
-        "body": "Last updated: December 1, 2025"
+        "body": "Last updated: October 1, 2026"
       }
     ]
   },
@@ -456,7 +391,7 @@
     "name": "V",
     "version": "15",
     "apiLevel": 35,
-    "distributionPercentage": 0.193,
+    "distributionPercentage": 0.147,
     "url": "https://developer.android.com/about/versions/15",
     "descriptionBlocks": [
       {
@@ -497,7 +432,7 @@
       },
       {
         "title": "",
-        "body": "Last updated: December 1, 2025"
+        "body": "Last updated: October 1, 2026"
       }
     ]
   },
@@ -505,7 +440,7 @@
     "name": "B",
     "version": "16",
     "apiLevel": 36,
-    "distributionPercentage": 0.074,
+    "distributionPercentage": 0.254,
     "url": "https://developer.android.com/about/versions/16/summary",
     "descriptionBlocks": [
       {
@@ -550,7 +485,60 @@
       },
       {
         "title": "",
-        "body": "Last updated: December 1, 2025"
+        "body": "Last updated: October 1, 2026"
+      }
+    ]
+  },
+  {
+    "name": "C",
+    "version": "17",
+    "apiLevel": 37,
+    "distributionPercentage": 0.009,
+    "url": "https://developer.android.com/about/versions/17/summary",
+    "descriptionBlocks": [
+      {
+        "title": "User Experience and System UI",
+        "body": "Dedicated Assistant volume stream (MODE_ASSISTANT_CONVERSATION)<br>MetricStyle notification template<br>Live Update semantic color API<br>Handoff for cross-device task continuity<br>New global keyboard navigation shortcuts<br>Restoring default IME visibility after rotation<br>User-agent reduction for WebView (targeting 17+)<br>Memory limit for RemoteViews in widgets (targeting 17+)"
+      },
+      {
+        "title": "Security and Privacy",
+        "body": "Android Advanced Protection Mode (AAPM)<br>Post-quantum cryptography (PQC) APK signing<br>Android contacts picker<br>Block cross-profile loopback traffic<br>Per-app keystore key limits<br>Restrict implicit URI grants<br>Restricted access to end-to-end encrypted messages<br>Certificate Transparency (CT) enabled by default (targeting 17+)<br>Encrypted Client Hello (ECH) enabled by default (targeting 17+)<br>Local network permission required (ACCESS_LOCAL_NETWORK) (targeting 17+)<br>OTP protection for standard SMS messages (targeting 17+)<br>Hiding passwords from physical input devices (targeting 17+)<br>Safer Native Dynamic Code Loading (DCL) (targeting 17+)<br>Contacts Provider 2 (CP2) PII field restrictions and strict SQL checks (targeting 17+)"
+      },
+      {
+        "title": "Core Functionality",
+        "body": "New ProfilingManager system triggers<br>JobDebugInfo APIs for JobScheduler debugging<br>Listener support for allow-while-idle alarms<br>App memory limits and runtime enforcement<br>Optimized delivery of self-broadcasts<br>usesCleartextTraffic deprecation plan<br>New NPU feature flag (android.hardware.npu) (targeting 17+)<br>Memory restrictions for notification custom views (targeting 17+)<br>Unmodifiable static final fields (targeting 17+)<br>Lock-free implementation of MessageQueue (targeting 17+)"
+      },
+      {
+        "title": "Connectivity",
+        "body": "Constrained satellite networks support<br>UWB Downlink-TDoA ranging APIs<br>Autonomous re-pairing for Bluetooth bond losses<br>Consistent BluetoothSocket.read() behavior for RFCOMM (targeting 17+)"
+      },
+      {
+        "title": "Media",
+        "body": "New BYPASS_CONCURRENT_RECORD_AUDIO_RESTRICTION permission for concurrent audio capture<br>Background audio hardening"
+      },
+      {
+        "title": "Graphics",
+        "body": "WebGPU on Android"
+      },
+      {
+        "title": "Accessibility",
+        "body": "Accessibility support for complex IME physical keyboard typing (targeting 17+)"
+      },
+      {
+        "title": "Human Input",
+        "body": "Touchpads deliver relative pointer events by default during pointer capture"
+      },
+      {
+        "title": "Device Form Factors",
+        "body": "Mandatory platform API changes ignoring orientation, resizability, and aspect ratio constraints on large screens (targeting 17+)"
+      },
+      {
+        "title": "Intelligence",
+        "body": "Deprecation of setContentCaptureEnabled (targeting 17+)"
+      },
+      {
+        "title": "",
+        "body": "Last updated: October 1, 2026"
       }
     ]
   }

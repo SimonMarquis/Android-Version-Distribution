@@ -2,44 +2,90 @@
 
 | Name | Version | API |  % |
 |------|--------:|----:|---:|
-| [B](#api-36) | 16 | 36 | 7.4% |
-| [V](#api-35) | 15 | 35 | 19.3% |
-| [U](#api-34) | 14 | 34 | 17.2% |
-| [T](#api-33) | 13 | 33 | 13.9% |
-| [S](#api-31) | 12 | 31 | 11.4% |
-| [R](#api-30) | 11 | 30 | 13.7% |
-| [Q](#api-29) | 10 | 29 | 7.8% |
-| [Pie](#api-28) | 9 | 28 | 4.5% |
-| [Oreo](#api-27) | 8.1 | 27 | 2.3% |
-| [Oreo](#api-26) | 8 | 26 | 0.8% |
-| [Nougat](#api-25) | 7.1 | 25 | 0.4% |
-| [Nougat](#api-24) | 7 | 24 | 0.4% |
-| [Marshmallow](#api-23) | 6 | 23 | 0.4% |
-| [Lollipop](#api-22) | 5.1 | 22 | 0.3% |
-| [Lollipop](#api-21) | 5 | 21 | 0.1% |
+| [C](#api-37) | 17 | 37 | 0.9% |
+| [B](#api-36) | 16 | 36 | 25.4% |
+| [V](#api-35) | 15 | 35 | 14.7% |
+| [U](#api-34) | 14 | 34 | 15.3% |
+| [T](#api-33) | 13 | 33 | 11.8% |
+| [S](#api-31) | 12 | 31 | 9.6% |
+| [R](#api-30) | 11 | 30 | 10.5% |
+| [Q](#api-29) | 10 | 29 | 5.7% |
+| [Pie](#api-28) | 9 | 28 | 3.1% |
+| [Oreo](#api-27) | 8.1 | 27 | 1.5% |
+| [Oreo](#api-26) | 8 | 26 | 0.5% |
+| [Nougat](#api-25) | 7.1 | 25 | 0.2% |
+| [Nougat](#api-24) | 7 | 24 | 0.2% |
+| [Marshmallow](#api-23) | 6 | 23 | 0.3% |
+| [Lollipop](#api-22) | 5.1 | 22 | 0.2% |
 
 ---
 
 ```mermaid
 pie
-    "V (15)" : 19.3
-    "U (14)" : 17.2
-    "T (13)" : 13.9
-    "R (11)" : 13.7
-    "S (12)" : 11.4
-    "Q (10)" : 7.8
-    "B (16)" : 7.4
-    "Pie (9)" : 4.5
-    "Oreo (8.1)" : 2.3
-    "Oreo (8)" : 0.8
-    "Nougat (7.1)" : 0.4
-    "Nougat (7)" : 0.4
-    "Marshmallow (6)" : 0.4
-    "Lollipop (5.1)" : 0.3
-    "Lollipop (5)" : 0.1
+    "B (16)" : 25.4
+    "U (14)" : 15.3
+    "V (15)" : 14.7
+    "T (13)" : 11.8
+    "R (11)" : 10.5
+    "S (12)" : 9.6
+    "Q (10)" : 5.7
+    "Pie (9)" : 3.1
+    "Oreo (8.1)" : 1.5
+    "C (17)" : 0.9
+    "Oreo (8)" : 0.5
+    "Marshmallow (6)" : 0.3
+    "Nougat (7.1)" : 0.2
+    "Nougat (7)" : 0.2
+    "Lollipop (5.1)" : 0.2
 ```
 
 ---
+
+<a id="api-37"></a>
+##### [C](https://developer.android.com/about/versions/17/summary)
+
+###### User Experience and System UI
+
+> Dedicated Assistant volume stream (MODE_ASSISTANT_CONVERSATION)<br>MetricStyle notification template<br>Live Update semantic color API<br>Handoff for cross-device task continuity<br>New global keyboard navigation shortcuts<br>Restoring default IME visibility after rotation<br>User-agent reduction for WebView (targeting 17+)<br>Memory limit for RemoteViews in widgets (targeting 17+)
+
+###### Security and Privacy
+
+> Android Advanced Protection Mode (AAPM)<br>Post-quantum cryptography (PQC) APK signing<br>Android contacts picker<br>Block cross-profile loopback traffic<br>Per-app keystore key limits<br>Restrict implicit URI grants<br>Restricted access to end-to-end encrypted messages<br>Certificate Transparency (CT) enabled by default (targeting 17+)<br>Encrypted Client Hello (ECH) enabled by default (targeting 17+)<br>Local network permission required (ACCESS_LOCAL_NETWORK) (targeting 17+)<br>OTP protection for standard SMS messages (targeting 17+)<br>Hiding passwords from physical input devices (targeting 17+)<br>Safer Native Dynamic Code Loading (DCL) (targeting 17+)<br>Contacts Provider 2 (CP2) PII field restrictions and strict SQL checks (targeting 17+)
+
+###### Core Functionality
+
+> New ProfilingManager system triggers<br>JobDebugInfo APIs for JobScheduler debugging<br>Listener support for allow-while-idle alarms<br>App memory limits and runtime enforcement<br>Optimized delivery of self-broadcasts<br>usesCleartextTraffic deprecation plan<br>New NPU feature flag (android.hardware.npu) (targeting 17+)<br>Memory restrictions for notification custom views (targeting 17+)<br>Unmodifiable static final fields (targeting 17+)<br>Lock-free implementation of MessageQueue (targeting 17+)
+
+###### Connectivity
+
+> Constrained satellite networks support<br>UWB Downlink-TDoA ranging APIs<br>Autonomous re-pairing for Bluetooth bond losses<br>Consistent BluetoothSocket.read() behavior for RFCOMM (targeting 17+)
+
+###### Media
+
+> New BYPASS_CONCURRENT_RECORD_AUDIO_RESTRICTION permission for concurrent audio capture<br>Background audio hardening
+
+###### Graphics
+
+> WebGPU on Android
+
+###### Accessibility
+
+> Accessibility support for complex IME physical keyboard typing (targeting 17+)
+
+###### Human Input
+
+> Touchpads deliver relative pointer events by default during pointer capture
+
+###### Device Form Factors
+
+> Mandatory platform API changes ignoring orientation, resizability, and aspect ratio constraints on large screens (targeting 17+)
+
+###### Intelligence
+
+> Deprecation of setContentCaptureEnabled (targeting 17+)
+
+> [!NOTE]  
+> Last updated: October 1, 2026
 
 <a id="api-36"></a>
 ##### [B](https://developer.android.com/about/versions/16/summary)
@@ -85,7 +131,7 @@ pie
 > Transition to granular health and fitness permissions (`android.permissions.health` for Health Connect) (targeting 16+)
 
 > [!NOTE]  
-> Last updated: December 1, 2025
+> Last updated: October 1, 2026
 
 <a id="api-35"></a>
 ##### [V](https://developer.android.com/about/versions/15)
@@ -127,7 +173,7 @@ pie
 > Richer widget previews with Generated Previews API<br>Picture-in-picture improvements<br>Improved Do Not Disturb rules<br>Set VibrationEffect for notification channels<br>Media projection status bar chip and auto stop
 
 > [!NOTE]  
-> Last updated: December 1, 2025
+> Last updated: October 1, 2026
 
 <a id="api-34"></a>
 ##### [U](https://developer.android.com/about/versions/14)
@@ -145,7 +191,7 @@ pie
 > Credential Manager<br>Improvements for app stores<br>Detect when users take device screenshots<br>Secure full-screen Intent notifications<br>Restrictions to implicit and pending intents<br>Safer dynamic code loading<br>restrictions on starting activities from the background<br>User consent required for each MediaProjection
 
 > [!NOTE]  
-> Last updated: December 1, 2025
+> Last updated: October 1, 2026
 
 <a id="api-33"></a>
 ##### [T](https://developer.android.com/about/versions/13)
@@ -163,7 +209,7 @@ pie
 > Safer exporting of context-registered receivers<br>Enhanced photo picker privacy<br>New runtime permission for nearby Wi-Fi devices<br>Exact alarms permission<br>Developer downgradable permissions<br>APK Signature Scheme v3.1<br>Better error reporting in Keystore and KeyMint
 
 > [!NOTE]  
-> Last updated: December 1, 2025
+> Last updated: October 1, 2026
 
 <a id="api-31"></a>
 ##### [S](https://developer.android.com/about/versions/12)
@@ -185,7 +231,7 @@ pie
 > System UI optimizations<br>App taskbar<br>Drag and drop an app into split-screen mode<br>fast app-switching<br>Visual and stability improvements to compatibility mode<br>Activity embedding with Jetpack WindowManager
 
 > [!NOTE]  
-> Last updated: December 1, 2025
+> Last updated: October 1, 2026
 
 <a id="api-30"></a>
 ##### [R](https://developer.android.com/about/versions/11)
@@ -203,7 +249,7 @@ pie
 > Scoped storage enforcement<br>One-time permissions<br>Permissions auto-reset<br>Background location access<br>Package visibility<br>Foreground services<br>Secure sharing of large datasets
 
 > [!NOTE]  
-> Last updated: December 1, 2025
+> Last updated: October 1, 2026
 
 <a id="api-29"></a>
 ##### [Q](https://developer.android.com/about/versions/10)
@@ -225,7 +271,7 @@ pie
 > New location permissions<br>Storage encryption<br>TLS 1.3 by default<br>Platform hardening<br>Improved biometrics
 
 > [!NOTE]  
-> Last updated: December 1, 2025
+> Last updated: October 1, 2026
 
 <a id="api-28"></a>
 ##### [Pie](https://developer.android.com/about/versions/pie/android-9.0)
@@ -251,7 +297,7 @@ pie
 > Navigation semantics<br>Convenience actions<br>Magnifier
 
 > [!NOTE]  
-> Last updated: December 1, 2025
+> Last updated: October 1, 2026
 
 <a id="api-27"></a>
 ##### [Oreo](https://developer.android.com/about/versions/oreo/android-8.1)
@@ -273,7 +319,7 @@ pie
 > Fingerprint updates<br>Cryptography updates
 
 > [!NOTE]  
-> Last updated: December 1, 2025
+> Last updated: October 1, 2026
 
 <a id="api-26"></a>
 ##### [Oreo](https://developer.android.com/about/versions/oreo/android-8.0)
@@ -303,7 +349,7 @@ pie
 > Platform optimizations<br>Updated Java language support<br>Updated ICU4J Android Framework APIs
 
 > [!NOTE]  
-> Last updated: December 1, 2025
+> Last updated: October 1, 2026
 
 <a id="api-25"></a>
 ##### [Nougat](https://developer.android.com/about/versions/nougat/android-7.1.html)
@@ -333,7 +379,7 @@ pie
 > New Screen Densities for Wear Devices
 
 > [!NOTE]  
-> Last updated: December 1, 2025
+> Last updated: October 1, 2026
 
 <a id="api-24"></a>
 ##### [Nougat](https://developer.android.com/about/versions/nougat/android-7.0.html)
@@ -383,7 +429,7 @@ pie
 > Print service enhancements
 
 > [!NOTE]  
-> Last updated: December 1, 2025
+> Last updated: October 1, 2026
 
 <a id="api-23"></a>
 ##### [Marshmallow](https://developer.android.com/about/versions/marshmallow/android-6.0.html)
@@ -417,7 +463,7 @@ pie
 > Controls for Corporate-Owned, Single-Use devices<br>Silent install and uninstall of apps by Device Owner<br>Silent enterprise certificate access<br>Auto-acceptance of system updates<br>Delegated certificate installation<br>Data usage tracking<br>Runtime permission management<br>Work status notification
 
 > [!NOTE]  
-> Last updated: December 1, 2025
+> Last updated: October 1, 2026
 
 <a id="api-22"></a>
 ##### [Lollipop](https://developer.android.com/about/versions/android-5.1.html)
@@ -431,63 +477,5 @@ pie
 > Deprecated HTTP Classes
 
 > [!NOTE]  
-> Last updated: December 1, 2025
-
-<a id="api-21"></a>
-##### [Lollipop](https://developer.android.com/about/versions/android-5.0.html)
-
-###### User Interface
-
-> Material design support<br>Concurrent documents and activities in the recents screen<br>WebView updates<br>Screen capturing and sharing
-
-###### Notifications
-
-> Lock screen notifications<br>Notifications metadata
-
-###### Graphics
-
-> Support for OpenGL ES 3.1<br>Android Extension Pack
-
-###### Media
-
-> Camera API for advanced camera capabilities<br>Audio playback<br>Media playback control<br>Media browsing
-
-###### Storage
-
-> Directory selection
-
-###### Wireless & Connectivity
-
-> Multiple network connections<br>Bluetooth Low Energy<br>NFC enhancements
-
-###### Battery - Project Volta
-
-> Scheduling jobs<br>Developer tools for battery usage
-
-###### Android in the Workplace and in Education
-
-> Managed provisioning<br>Device owner<br>Screen pinning
-
-###### Printing Framework
-
-> Render PDF as bitmap
-
-###### System
-
-> App usage statistics
-
-###### Testing & Accessibility
-
-> Testing and accessibility improvements
-
-###### IME
-
-> Easier switching between input languages
-
-###### Manifest Declarations
-
-> Declarable required features<br>User permissions
-
-> [!NOTE]  
-> Last updated: December 1, 2025
+> Last updated: October 1, 2026
 
